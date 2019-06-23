@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pre-requisites on Introduction to Kubernetes</title>
-    <link>https://shahadarsh.github.io/intro-k8/introduction/pre-requisites/</link>
+    <link>https://shahadarsh.github.io/docker-k8s-presentation/introduction/pre-requisites/</link>
     <description>Recent content in Pre-requisites on Introduction to Kubernetes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 09 Dec 2018 16:52:57 -0500</lastBuildDate>
     
-	<atom:link href="https://shahadarsh.github.io/intro-k8/introduction/pre-requisites/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://shahadarsh.github.io/docker-k8s-presentation/introduction/pre-requisites/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

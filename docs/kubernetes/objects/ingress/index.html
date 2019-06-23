@@ -7,25 +7,25 @@
     <meta name="description" content="">
 
 
-    <link rel="shortcut icon" href="/intro-k8/images/favicon.png" type="image/x-icon" />
-<link rel="icon" href="/intro-k8/images/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="/docker-k8s-presentation/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="/docker-k8s-presentation/images/favicon.png" type="image/x-icon" />
 
     <title>ingress :: Introduction to Kubernetes</title>
 
     
-    <link href="/intro-k8/css/nucleus.css?1561292045" rel="stylesheet">
-    <link href="/intro-k8/css/fontawesome-all.min.css?1561292045" rel="stylesheet">
-    <link href="/intro-k8/css/hybrid.css?1561292045" rel="stylesheet">
-    <link href="/intro-k8/css/featherlight.min.css?1561292045" rel="stylesheet">
-    <link href="/intro-k8/css/perfect-scrollbar.min.css?1561292045" rel="stylesheet">
-    <link href="/intro-k8/css/auto-complete.css?1561292045" rel="stylesheet">
-    <link href="/intro-k8/css/theme.css?1561292045" rel="stylesheet">
-    <link href="/intro-k8/css/hugo-theme.css?1561292045" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/nucleus.css?1561293667" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/fontawesome-all.min.css?1561293667" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/hybrid.css?1561293667" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/featherlight.min.css?1561293667" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/perfect-scrollbar.min.css?1561293667" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/auto-complete.css?1561293667" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/theme.css?1561293667" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/hugo-theme.css?1561293667" rel="stylesheet">
     
-      <link href="/intro-k8/css/theme-mine.css?1561292045" rel="stylesheet">
+      <link href="/docker-k8s-presentation/css/theme-mine.css?1561293667" rel="stylesheet">
     
 
-    <script src="/intro-k8/js/jquery-2.x.min.js?1561292045"></script>
+    <script src="/docker-k8s-presentation/js/jquery-2.x.min.js?1561293667"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -36,7 +36,7 @@
     
 
   </head>
-  <body class="" data-url="/intro-k8/kubernetes/objects/ingress/">
+  <body class="" data-url="/docker-k8s-presentation/kubernetes/objects/ingress/">
     <nav id="sidebar" class="">
 
 
@@ -52,14 +52,14 @@
     <span data-search-clear=""><i class="fas fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/intro-k8/js/lunr.min.js?1561292045"></script>
-<script type="text/javascript" src="/intro-k8/js/auto-complete.js?1561292045"></script>
+<script type="text/javascript" src="/docker-k8s-presentation/js/lunr.min.js?1561293667"></script>
+<script type="text/javascript" src="/docker-k8s-presentation/js/auto-complete.js?1561293667"></script>
 <script type="text/javascript">
     
-        var baseurl = "https:\/\/shahadarsh.github.io\/intro-k8\/";
+        var baseurl = "https:\/\/shahadarsh.github.io\/docker-k8s-presentation\/";
     
 </script>
-<script type="text/javascript" src="/intro-k8/js/search.js?1561292045"></script>
+<script type="text/javascript" src="/docker-k8s-presentation/js/search.js?1561293667"></script>
 
     
   </div>
@@ -75,12 +75,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/introduction/" title="Introduction" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/introduction/" title="Introduction" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/introduction/">
+      <a href="/docker-k8s-presentation/introduction/">
           <b>1. </b>Introduction
           
       </a>
@@ -102,12 +102,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/introduction/pre-requisites/" title="Pre-requisites" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/introduction/pre-requisites/" title="Pre-requisites" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/introduction/pre-requisites/">
+      <a href="/docker-k8s-presentation/introduction/pre-requisites/">
           Pre-requisites
           
       </a>
@@ -126,12 +126,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/introduction/whoami/" title="Instructor" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/introduction/whoami/" title="Instructor" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/introduction/whoami/">
+      <a href="/docker-k8s-presentation/introduction/whoami/">
           Instructor
           
       </a>
@@ -150,12 +150,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/introduction/introduction/" title="Introduction" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/introduction/introduction/" title="Introduction" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/introduction/introduction/">
+      <a href="/docker-k8s-presentation/introduction/introduction/">
           Introduction
           
       </a>
@@ -174,12 +174,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/introduction/agenda/" title="Agenda" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/introduction/agenda/" title="Agenda" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/introduction/agenda/">
+      <a href="/docker-k8s-presentation/introduction/agenda/">
           Agenda
           
       </a>
@@ -205,12 +205,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/containers/" title="Containers" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/containers/" title="Containers" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/containers/">
+      <a href="/docker-k8s-presentation/containers/">
           <b>2. </b>Containers
           
       </a>
@@ -232,12 +232,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/containers/history/" title="History" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/containers/history/" title="History" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/containers/history/">
+      <a href="/docker-k8s-presentation/containers/history/">
           History
           
       </a>
@@ -257,8 +257,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/containers/history/history/" title="Beginning" class="dd-item ">
-        <a href="/intro-k8/containers/history/history/">
+      <li data-nav-id="/docker-k8s-presentation/containers/history/history/" title="Beginning" class="dd-item ">
+        <a href="/docker-k8s-presentation/containers/history/history/">
         Beginning
         
         </a>
@@ -276,8 +276,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/containers/history/hyper/" title="Hypervisor" class="dd-item ">
-        <a href="/intro-k8/containers/history/hyper/">
+      <li data-nav-id="/docker-k8s-presentation/containers/history/hyper/" title="Hypervisor" class="dd-item ">
+        <a href="/docker-k8s-presentation/containers/history/hyper/">
         Hypervisor
         
         </a>
@@ -295,8 +295,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/containers/history/containers/" title="Containers" class="dd-item ">
-        <a href="/intro-k8/containers/history/containers/">
+      <li data-nav-id="/docker-k8s-presentation/containers/history/containers/" title="Containers" class="dd-item ">
+        <a href="/docker-k8s-presentation/containers/history/containers/">
         Containers
         
         </a>
@@ -314,8 +314,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/containers/history/layers/" title="Layers" class="dd-item ">
-        <a href="/intro-k8/containers/history/layers/">
+      <li data-nav-id="/docker-k8s-presentation/containers/history/layers/" title="Layers" class="dd-item ">
+        <a href="/docker-k8s-presentation/containers/history/layers/">
         Layers
         
         </a>
@@ -342,12 +342,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/containers/primitives/" title="Primitives" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/containers/primitives/" title="Primitives" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/containers/primitives/">
+      <a href="/docker-k8s-presentation/containers/primitives/">
           Primitives
           
       </a>
@@ -366,12 +366,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/containers/network/" title="Network" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/containers/network/" title="Network" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/containers/network/">
+      <a href="/docker-k8s-presentation/containers/network/">
           Network
           
       </a>
@@ -391,8 +391,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/containers/network/dockernetop/" title="Docker Network options" class="dd-item ">
-        <a href="/intro-k8/containers/network/dockernetop/">
+      <li data-nav-id="/docker-k8s-presentation/containers/network/dockernetop/" title="Docker Network options" class="dd-item ">
+        <a href="/docker-k8s-presentation/containers/network/dockernetop/">
         Docker Network options
         
         </a>
@@ -410,8 +410,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/containers/network/docker0/" title="Docker0 " class="dd-item ">
-        <a href="/intro-k8/containers/network/docker0/">
+      <li data-nav-id="/docker-k8s-presentation/containers/network/docker0/" title="Docker0 " class="dd-item ">
+        <a href="/docker-k8s-presentation/containers/network/docker0/">
         Docker0 
         
         </a>
@@ -429,8 +429,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/containers/network/docker0-dig/" title="Docker0 Diagram" class="dd-item ">
-        <a href="/intro-k8/containers/network/docker0-dig/">
+      <li data-nav-id="/docker-k8s-presentation/containers/network/docker0-dig/" title="Docker0 Diagram" class="dd-item ">
+        <a href="/docker-k8s-presentation/containers/network/docker0-dig/">
         Docker0 Diagram
         
         </a>
@@ -457,12 +457,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/containers/storage/" title="Storage" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/containers/storage/" title="Storage" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/containers/storage/">
+      <a href="/docker-k8s-presentation/containers/storage/">
           Storage
           
       </a>
@@ -482,8 +482,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/containers/storage/layers/" title="Layers" class="dd-item ">
-        <a href="/intro-k8/containers/storage/layers/">
+      <li data-nav-id="/docker-k8s-presentation/containers/storage/layers/" title="Layers" class="dd-item ">
+        <a href="/docker-k8s-presentation/containers/storage/layers/">
         Layers
         
         </a>
@@ -501,8 +501,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/containers/storage/volumes/" title="Volumes" class="dd-item ">
-        <a href="/intro-k8/containers/storage/volumes/">
+      <li data-nav-id="/docker-k8s-presentation/containers/storage/volumes/" title="Volumes" class="dd-item ">
+        <a href="/docker-k8s-presentation/containers/storage/volumes/">
         Volumes
         
         </a>
@@ -520,8 +520,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/containers/storage/benefits/" title="Storage" class="dd-item ">
-        <a href="/intro-k8/containers/storage/benefits/">
+      <li data-nav-id="/docker-k8s-presentation/containers/storage/benefits/" title="Storage" class="dd-item ">
+        <a href="/docker-k8s-presentation/containers/storage/benefits/">
         Storage
         
         </a>
@@ -539,8 +539,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/containers/storage/commands/" title="Volume CLI" class="dd-item ">
-        <a href="/intro-k8/containers/storage/commands/">
+      <li data-nav-id="/docker-k8s-presentation/containers/storage/commands/" title="Volume CLI" class="dd-item ">
+        <a href="/docker-k8s-presentation/containers/storage/commands/">
         Volume CLI
         
         </a>
@@ -567,12 +567,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/containers/docker/" title="Docker Intro" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/containers/docker/" title="Docker Intro" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/containers/docker/">
+      <a href="/docker-k8s-presentation/containers/docker/">
           Docker Intro
           
       </a>
@@ -592,8 +592,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/containers/docker/benefits/" title="Benefits of Docker" class="dd-item ">
-        <a href="/intro-k8/containers/docker/benefits/">
+      <li data-nav-id="/docker-k8s-presentation/containers/docker/benefits/" title="Benefits of Docker" class="dd-item ">
+        <a href="/docker-k8s-presentation/containers/docker/benefits/">
         Benefits of Docker
         
         </a>
@@ -611,8 +611,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/containers/docker/platform/" title="Docker Platform" class="dd-item ">
-        <a href="/intro-k8/containers/docker/platform/">
+      <li data-nav-id="/docker-k8s-presentation/containers/docker/platform/" title="Docker Platform" class="dd-item ">
+        <a href="/docker-k8s-presentation/containers/docker/platform/">
         Docker Platform
         
         </a>
@@ -630,8 +630,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/containers/docker/dockerfile/" title="Dockerfile" class="dd-item ">
-        <a href="/intro-k8/containers/docker/dockerfile/">
+      <li data-nav-id="/docker-k8s-presentation/containers/docker/dockerfile/" title="Dockerfile" class="dd-item ">
+        <a href="/docker-k8s-presentation/containers/docker/dockerfile/">
         Dockerfile
         
         </a>
@@ -649,8 +649,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/containers/docker/cli/" title="CLI" class="dd-item ">
-        <a href="/intro-k8/containers/docker/cli/">
+      <li data-nav-id="/docker-k8s-presentation/containers/docker/cli/" title="CLI" class="dd-item ">
+        <a href="/docker-k8s-presentation/containers/docker/cli/">
         CLI
         
         </a>
@@ -668,8 +668,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/containers/docker/exercise/" title="Docker Exercise" class="dd-item ">
-        <a href="/intro-k8/containers/docker/exercise/">
+      <li data-nav-id="/docker-k8s-presentation/containers/docker/exercise/" title="Docker Exercise" class="dd-item ">
+        <a href="/docker-k8s-presentation/containers/docker/exercise/">
         Docker Exercise
         
         </a>
@@ -703,12 +703,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/" title="Kubernetes" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/" title="Kubernetes" class="dd-item 
         parent
         
         
         ">
-      <a href="/intro-k8/kubernetes/">
+      <a href="/docker-k8s-presentation/kubernetes/">
           <b>3. </b>Kubernetes
           
       </a>
@@ -730,12 +730,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/history/" title="History" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/history/" title="History" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/history/">
+      <a href="/docker-k8s-presentation/kubernetes/history/">
           History
           
       </a>
@@ -754,12 +754,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/community/" title="Community" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/community/" title="Community" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/community/">
+      <a href="/docker-k8s-presentation/kubernetes/community/">
           Community
           
       </a>
@@ -779,8 +779,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/community/projects_grad/" title="Graduated Projects" class="dd-item ">
-        <a href="/intro-k8/kubernetes/community/projects_grad/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/community/projects_grad/" title="Graduated Projects" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/community/projects_grad/">
         Graduated Projects
         
         </a>
@@ -798,8 +798,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/community/projects_inc/" title="Incubating Projects" class="dd-item ">
-        <a href="/intro-k8/kubernetes/community/projects_inc/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/community/projects_inc/" title="Incubating Projects" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/community/projects_inc/">
         Incubating Projects
         
         </a>
@@ -817,8 +817,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/community/involvement/" title="Involvement" class="dd-item ">
-        <a href="/intro-k8/kubernetes/community/involvement/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/community/involvement/" title="Involvement" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/community/involvement/">
         Involvement
         
         </a>
@@ -845,12 +845,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/arch/" title="Architecture" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/arch/" title="Architecture" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/arch/">
+      <a href="/docker-k8s-presentation/kubernetes/arch/">
           Architecture
           
       </a>
@@ -870,8 +870,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/arch/master/" title="Master" class="dd-item ">
-        <a href="/intro-k8/kubernetes/arch/master/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/arch/master/" title="Master" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/arch/master/">
         Master
         
         </a>
@@ -889,8 +889,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/arch/node/" title="Node" class="dd-item ">
-        <a href="/intro-k8/kubernetes/arch/node/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/arch/node/" title="Node" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/arch/node/">
         Node
         
         </a>
@@ -908,8 +908,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/arch/data/" title="Data Flow" class="dd-item ">
-        <a href="/intro-k8/kubernetes/arch/data/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/arch/data/" title="Data Flow" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/arch/data/">
         Data Flow
         
         </a>
@@ -936,12 +936,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/connect/" title="Connect" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/connect/" title="Connect" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/connect/">
+      <a href="/docker-k8s-presentation/kubernetes/connect/">
           Connect
           
       </a>
@@ -960,12 +960,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/objects/" title="Objects" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/" title="Objects" class="dd-item 
         parent
         
         
         ">
-      <a href="/intro-k8/kubernetes/objects/">
+      <a href="/docker-k8s-presentation/kubernetes/objects/">
           Objects
           
       </a>
@@ -987,12 +987,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/objects/namespaces/" title="Namespaces" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/namespaces/" title="Namespaces" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/objects/namespaces/">
+      <a href="/docker-k8s-presentation/kubernetes/objects/namespaces/">
           Namespaces
           
       </a>
@@ -1012,8 +1012,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/namespaces/exercises/" title="Exercises" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/namespaces/exercises/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/namespaces/exercises/" title="Exercises" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/namespaces/exercises/">
         Exercises
         
         </a>
@@ -1040,12 +1040,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/objects/pods/" title="Pods" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/pods/" title="Pods" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/objects/pods/">
+      <a href="/docker-k8s-presentation/kubernetes/objects/pods/">
           Pods
           
       </a>
@@ -1065,8 +1065,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/pods/exercises/" title="Exercises" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/pods/exercises/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/pods/exercises/" title="Exercises" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/pods/exercises/">
         Exercises
         
         </a>
@@ -1084,8 +1084,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/pods/labels_selectors/" title="Labels and Selectors" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/pods/labels_selectors/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/pods/labels_selectors/" title="Labels and Selectors" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/pods/labels_selectors/">
         Labels and Selectors
         
         </a>
@@ -1112,12 +1112,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/objects/resourcequotas/" title="Resource Quotas" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/resourcequotas/" title="Resource Quotas" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/objects/resourcequotas/">
+      <a href="/docker-k8s-presentation/kubernetes/objects/resourcequotas/">
           Resource Quotas
           
       </a>
@@ -1137,8 +1137,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/resourcequotas/resources/" title="Resource Quotas" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/resourcequotas/resources/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/resourcequotas/resources/" title="Resource Quotas" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/resourcequotas/resources/">
         Resource Quotas
         
         </a>
@@ -1156,8 +1156,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/resourcequotas/exercises/" title="Exercises" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/resourcequotas/exercises/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/resourcequotas/exercises/" title="Exercises" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/resourcequotas/exercises/">
         Exercises
         
         </a>
@@ -1184,12 +1184,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/objects/controllers/" title="Controllers" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/controllers/" title="Controllers" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/objects/controllers/">
+      <a href="/docker-k8s-presentation/kubernetes/objects/controllers/">
           Controllers
           
       </a>
@@ -1209,8 +1209,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/controllers/updates/" title="Controllers Updates" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/controllers/updates/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/controllers/updates/" title="Controllers Updates" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/controllers/updates/">
         Controllers Updates
         
         </a>
@@ -1228,8 +1228,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/controllers/exercises/" title="Exercises" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/controllers/exercises/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/controllers/exercises/" title="Exercises" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/controllers/exercises/">
         Exercises
         
         </a>
@@ -1256,12 +1256,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/objects/storage/" title="Storage" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/storage/" title="Storage" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/objects/storage/">
+      <a href="/docker-k8s-presentation/kubernetes/objects/storage/">
           Storage
           
       </a>
@@ -1281,8 +1281,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/storage/volumes/" title="Volumes" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/storage/volumes/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/storage/volumes/" title="Volumes" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/storage/volumes/">
         Volumes
         
         </a>
@@ -1300,8 +1300,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/storage/pv/" title="Persistent Volume" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/storage/pv/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/storage/pv/" title="Persistent Volume" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/storage/pv/">
         Persistent Volume
         
         </a>
@@ -1319,8 +1319,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/storage/pvc/" title="Persistent Volume Claims" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/storage/pvc/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/storage/pvc/" title="Persistent Volume Claims" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/storage/pvc/">
         Persistent Volume Claims
         
         </a>
@@ -1338,8 +1338,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/storage/classes/" title="Storage Classes" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/storage/classes/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/storage/classes/" title="Storage Classes" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/storage/classes/">
         Storage Classes
         
         </a>
@@ -1357,8 +1357,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/storage/exercises/" title="Exercises" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/storage/exercises/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/storage/exercises/" title="Exercises" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/storage/exercises/">
         Exercises
         
         </a>
@@ -1385,12 +1385,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/objects/secrets/" title="Secrets" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/secrets/" title="Secrets" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/objects/secrets/">
+      <a href="/docker-k8s-presentation/kubernetes/objects/secrets/">
           Secrets
           
       </a>
@@ -1410,8 +1410,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/secrets/secret/" title="Secrets Uses - Secret" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/secrets/secret/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/secrets/secret/" title="Secrets Uses - Secret" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/secrets/secret/">
         Secrets Uses - Secret
         
         </a>
@@ -1429,8 +1429,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/secrets/file/" title="Secrets Uses - File" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/secrets/file/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/secrets/file/" title="Secrets Uses - File" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/secrets/file/">
         Secrets Uses - File
         
         </a>
@@ -1448,8 +1448,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/secrets/env/" title="Secrets Uses - Env Var" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/secrets/env/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/secrets/env/" title="Secrets Uses - Env Var" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/secrets/env/">
         Secrets Uses - Env Var
         
         </a>
@@ -1476,12 +1476,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/objects/configmaps/" title="Configmaps" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/configmaps/" title="Configmaps" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/objects/configmaps/">
+      <a href="/docker-k8s-presentation/kubernetes/objects/configmaps/">
           Configmaps
           
       </a>
@@ -1501,8 +1501,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/configmaps/configmap/" title="Configmaps" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/configmaps/configmap/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/configmaps/configmap/" title="Configmaps" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/configmaps/configmap/">
         Configmaps
         
         </a>
@@ -1520,8 +1520,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/configmaps/volumes/" title="Configmaps - Volume" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/configmaps/volumes/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/configmaps/volumes/" title="Configmaps - Volume" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/configmaps/volumes/">
         Configmaps - Volume
         
         </a>
@@ -1539,8 +1539,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/configmaps/envvar/" title="Configmaps - Env Var" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/configmaps/envvar/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/configmaps/envvar/" title="Configmaps - Env Var" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/configmaps/envvar/">
         Configmaps - Env Var
         
         </a>
@@ -1567,12 +1567,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/objects/ingress/" title="ingress" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/ingress/" title="ingress" class="dd-item 
         parent
         active
         
         ">
-      <a href="/intro-k8/kubernetes/objects/ingress/">
+      <a href="/docker-k8s-presentation/kubernetes/objects/ingress/">
           ingress
           
       </a>
@@ -1592,8 +1592,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/ingress/controller/" title="Ingress Controllers" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/ingress/controller/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/ingress/controller/" title="Ingress Controllers" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/ingress/controller/">
         Ingress Controllers
         
         </a>
@@ -1611,8 +1611,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/ingress/rules/" title="Ingress Rules" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/ingress/rules/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/ingress/rules/" title="Ingress Rules" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/ingress/rules/">
         Ingress Rules
         
         </a>
@@ -1639,12 +1639,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/objects/services/" title="Services" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/services/" title="Services" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/objects/services/">
+      <a href="/docker-k8s-presentation/kubernetes/objects/services/">
           Services
           
       </a>
@@ -1664,8 +1664,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/services/diag/" title="Service Diagram" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/services/diag/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/services/diag/" title="Service Diagram" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/services/diag/">
         Service Diagram
         
         </a>
@@ -1683,8 +1683,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/services/exercises/" title="Exercises" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/services/exercises/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/services/exercises/" title="Exercises" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/services/exercises/">
         Exercises
         
         </a>
@@ -1711,12 +1711,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/objects/healthchecks/" title="Healthchecks" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/healthchecks/" title="Healthchecks" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/objects/healthchecks/">
+      <a href="/docker-k8s-presentation/kubernetes/objects/healthchecks/">
           Healthchecks
           
       </a>
@@ -1736,8 +1736,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/healthchecks/liveliness/" title="Liveliness" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/healthchecks/liveliness/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/healthchecks/liveliness/" title="Liveliness" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/healthchecks/liveliness/">
         Liveliness
         
         </a>
@@ -1755,8 +1755,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/healthchecks/readiness/" title="Readiness" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/healthchecks/readiness/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/healthchecks/readiness/" title="Readiness" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/healthchecks/readiness/">
         Readiness
         
         </a>
@@ -1774,8 +1774,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/objects/healthchecks/exercises/" title="Exercises" class="dd-item ">
-        <a href="/intro-k8/kubernetes/objects/healthchecks/exercises/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/healthchecks/exercises/" title="Exercises" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/objects/healthchecks/exercises/">
         Exercises
         
         </a>
@@ -1802,12 +1802,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/objects/daemonsets/" title="Daemonsets" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/daemonsets/" title="Daemonsets" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/objects/daemonsets/">
+      <a href="/docker-k8s-presentation/kubernetes/objects/daemonsets/">
           Daemonsets
           
       </a>
@@ -1835,12 +1835,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/micro/" title="Microservices Exercise" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/micro/" title="Microservices Exercise" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/micro/">
+      <a href="/docker-k8s-presentation/kubernetes/micro/">
           Microservices Exercise
           
       </a>
@@ -1859,12 +1859,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/cleanup/" title="Cleanup" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/cleanup/" title="Cleanup" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/cleanup/">
+      <a href="/docker-k8s-presentation/kubernetes/cleanup/">
           Cleanup
           
       </a>
@@ -1883,12 +1883,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/running/" title="Running" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/running/" title="Running" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/running/">
+      <a href="/docker-k8s-presentation/kubernetes/running/">
           Running
           
       </a>
@@ -1907,12 +1907,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/kubernetes/extras/" title="Extras" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/extras/" title="Extras" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/kubernetes/extras/">
+      <a href="/docker-k8s-presentation/kubernetes/extras/">
           Extras
           
       </a>
@@ -1932,8 +1932,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/extras/monitoring/" title="Monitoring" class="dd-item ">
-        <a href="/intro-k8/kubernetes/extras/monitoring/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/extras/monitoring/" title="Monitoring" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/extras/monitoring/">
         Monitoring
         
         </a>
@@ -1951,8 +1951,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/extras/logging/" title="Logging" class="dd-item ">
-        <a href="/intro-k8/kubernetes/extras/logging/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/extras/logging/" title="Logging" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/extras/logging/">
         Logging
         
         </a>
@@ -1970,8 +1970,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/extras/logging-kc/" title="Logging - Pod" class="dd-item ">
-        <a href="/intro-k8/kubernetes/extras/logging-kc/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/extras/logging-kc/" title="Logging - Pod" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/extras/logging-kc/">
         Logging - Pod
         
         </a>
@@ -1989,8 +1989,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/extras/logging-node/" title="Logging - Node" class="dd-item ">
-        <a href="/intro-k8/kubernetes/extras/logging-node/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/extras/logging-node/" title="Logging - Node" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/extras/logging-node/">
         Logging - Node
         
         </a>
@@ -2008,8 +2008,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/extras/logging-cluster/" title="Logging - Cluster" class="dd-item ">
-        <a href="/intro-k8/kubernetes/extras/logging-cluster/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/extras/logging-cluster/" title="Logging - Cluster" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/extras/logging-cluster/">
         Logging - Cluster
         
         </a>
@@ -2027,8 +2027,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/extras/security/" title="Security - Containers" class="dd-item ">
-        <a href="/intro-k8/kubernetes/extras/security/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/extras/security/" title="Security - Containers" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/extras/security/">
         Security - Containers
         
         </a>
@@ -2046,8 +2046,8 @@
  
   
     
-      <li data-nav-id="/intro-k8/kubernetes/extras/security1/" title="Security - K8" class="dd-item ">
-        <a href="/intro-k8/kubernetes/extras/security1/">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/extras/security1/" title="Security - K8" class="dd-item ">
+        <a href="/docker-k8s-presentation/kubernetes/extras/security1/">
         Security - K8
         
         </a>
@@ -2081,12 +2081,12 @@
  
   
     
-    <li data-nav-id="/intro-k8/closing/" title="Closing" class="dd-item 
+    <li data-nav-id="/docker-k8s-presentation/closing/" title="Closing" class="dd-item 
         
         
         
         ">
-      <a href="/intro-k8/closing/">
+      <a href="/docker-k8s-presentation/closing/">
           <b>4. </b>Closing
           
       </a>
@@ -2154,7 +2154,7 @@
             
           
           
-            <a href='/intro-k8/'>Introduction to Kubernetes</a> > <a href='/intro-k8/kubernetes/'>Kubernetes</a> > <a href='/intro-k8/kubernetes/objects/'>Objects</a> > ingress
+            <a href='/docker-k8s-presentation/'>Introduction to Kubernetes</a> > <a href='/docker-k8s-presentation/kubernetes/'>Kubernetes</a> > <a href='/docker-k8s-presentation/kubernetes/objects/'>Objects</a> > ingress
           
          
           
@@ -3669,10 +3669,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/intro-k8/kubernetes/objects/configmaps/envvar/" title="Configmaps - Env Var"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/docker-k8s-presentation/kubernetes/objects/configmaps/envvar/" title="Configmaps - Env Var"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/intro-k8/kubernetes/objects/ingress/controller/" title="Ingress Controllers" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/docker-k8s-presentation/kubernetes/objects/ingress/controller/" title="Ingress Controllers" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -3682,20 +3682,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/intro-k8/js/clipboard.min.js?1561292045"></script>
-    <script src="/intro-k8/js/perfect-scrollbar.min.js?1561292045"></script>
-    <script src="/intro-k8/js/perfect-scrollbar.jquery.min.js?1561292045"></script>
-    <script src="/intro-k8/js/jquery.sticky.js?1561292045"></script>
-    <script src="/intro-k8/js/featherlight.min.js?1561292045"></script>
-    <script src="/intro-k8/js/html5shiv-printshiv.min.js?1561292045"></script>
-    <script src="/intro-k8/js/highlight.pack.js?1561292045"></script>
+    <script src="/docker-k8s-presentation/js/clipboard.min.js?1561293667"></script>
+    <script src="/docker-k8s-presentation/js/perfect-scrollbar.min.js?1561293667"></script>
+    <script src="/docker-k8s-presentation/js/perfect-scrollbar.jquery.min.js?1561293667"></script>
+    <script src="/docker-k8s-presentation/js/jquery.sticky.js?1561293667"></script>
+    <script src="/docker-k8s-presentation/js/featherlight.min.js?1561293667"></script>
+    <script src="/docker-k8s-presentation/js/html5shiv-printshiv.min.js?1561293667"></script>
+    <script src="/docker-k8s-presentation/js/highlight.pack.js?1561293667"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/intro-k8/js/modernizr.custom.71422.js?1561292045"></script>
-    <script src="/intro-k8/js/learn.js?1561292045"></script>
-    <script src="/intro-k8/js/hugo-learn.js?1561292045"></script>
+    <script src="/docker-k8s-presentation/js/modernizr.custom.71422.js?1561293667"></script>
+    <script src="/docker-k8s-presentation/js/learn.js?1561293667"></script>
+    <script src="/docker-k8s-presentation/js/hugo-learn.js?1561293667"></script>
 
-    <link href="/intro-k8/mermaid/mermaid.css?1561292045" type="text/css" rel="stylesheet" />
-    <script src="/intro-k8/mermaid/mermaid.js?1561292045"></script>
+    <link href="/docker-k8s-presentation/mermaid/mermaid.css?1561293667" type="text/css" rel="stylesheet" />
+    <script src="/docker-k8s-presentation/mermaid/mermaid.js?1561293667"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
