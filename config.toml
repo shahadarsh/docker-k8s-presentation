@@ -1,5 +1,5 @@
 publishDir = "docs/"
-baseURL = "https://shahadarsh.github.io/intro-k8/"
+baseURL = "https://shahadarsh.github.io/docker-k8s-presentation/"
 languageCode = "en-us"
 title = "Introduction to Kubernetes"
 theme = "learn"
