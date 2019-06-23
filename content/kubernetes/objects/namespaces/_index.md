@@ -15,5 +15,5 @@ Namespaces are virtual clusters inside your Kubernetes cluster that provide logi
 Scope of names
 Organization of Kubernetes resources
 
-### ![](/intro-k8/images/kubernetes/ns.png) 
+### ![](/docker-k8s-presentation/images/kubernetes/ns.png) 
 

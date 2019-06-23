@@ -6,8 +6,8 @@ pre = "<b>1. </b>"
 +++
 
 
-1. [Pre-requisites](/intro-k8/introduction/pre-requisites/)
-2. [Instructors](/intro-k8/introduction/whoami/)
-3. [Who are you?](/intro-k8/introduction/)
-4. [Agenda](/intro-k8/introduction/agenda/)
+1. [Pre-requisites](/docker-k8s-presentation/introduction/pre-requisites/)
+2. [Instructors](/docker-k8s-presentation/introduction/whoami/)
+3. [Who are you?](/docker-k8s-presentation/introduction/)
+4. [Agenda](/docker-k8s-presentation/introduction/agenda/)
 

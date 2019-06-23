@@ -7,4 +7,4 @@ chapter = true
 
 # Volumes
 
-![](/intro-k8/images/docker/volume.png)
+![](/docker-k8s-presentation/images/docker/volume.png)

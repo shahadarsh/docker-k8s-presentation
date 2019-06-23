@@ -7,13 +7,13 @@ chapter = true
 
 # Kubernetes API Objects
 
-1. [Namespaces](/intro-k8/kubernetes/objects/namespaces)
-2. [Pods](/intro-k8/kubernetes/objects/pods)
-3. [Resource Quotas](/intro-k8/kubernetes/objects/resource-quotas)
-4. [Controllers](/intro-k8/kubernetes/objects/controllers)
-5. [Storage](/intro-k8/kubernetes/objects/storage)
-6. [Secrets](/intro-k8/kubernetes/objects/secrets)
-7. [ConfigMaps](/intro-k8/kubernetes/objects/configmaps)
-8. [Ingress](/intro-k8/kubernetes/objects/ingress)
-9. [Service](/intro-k8/kubernetes/objects/services)
-10. [Healthchecks](/intro-k8/kubernetes/objects/healthchecks)
+1. [Namespaces](/docker-k8s-presentation/kubernetes/objects/namespaces)
+2. [Pods](/docker-k8s-presentation/kubernetes/objects/pods)
+3. [Resource Quotas](/docker-k8s-presentation/kubernetes/objects/resource-quotas)
+4. [Controllers](/docker-k8s-presentation/kubernetes/objects/controllers)
+5. [Storage](/docker-k8s-presentation/kubernetes/objects/storage)
+6. [Secrets](/docker-k8s-presentation/kubernetes/objects/secrets)
+7. [ConfigMaps](/docker-k8s-presentation/kubernetes/objects/configmaps)
+8. [Ingress](/docker-k8s-presentation/kubernetes/objects/ingress)
+9. [Service](/docker-k8s-presentation/kubernetes/objects/services)
+10. [Healthchecks](/docker-k8s-presentation/kubernetes/objects/healthchecks)

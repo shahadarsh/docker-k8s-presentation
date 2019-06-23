@@ -11,4 +11,4 @@ chapter = true
 * Role & Company
 * What would you like to learn today?
 
-![Awesome](/intro-k8/images/awesome.png)
+![Awesome](/docker-k8s-presentation/images/awesome.png)

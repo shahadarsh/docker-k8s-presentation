@@ -10,7 +10,7 @@ chapter = true
 
 ### Prerequisites ###
 
-[Follow the Requirements](/intro-k8/introduction/requirements)
+[Follow the Requirements](/docker-k8s-presentation/introduction/requirements)
 
 ### Google SDK Setup ###
 Follow the verification steps

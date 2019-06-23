@@ -16,4 +16,4 @@ and serve as the IP address inside the cluster for an application running multip
 
 More info [here](https://kubernetes.io/docs/concepts/services-networking/service/)
 
-### ![](/intro-k8/images/kubernetes/service.png) 
+### ![](/docker-k8s-presentation/images/kubernetes/service.png) 

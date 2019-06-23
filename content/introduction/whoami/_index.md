@@ -6,7 +6,7 @@ chapter = true
 +++
 
 Adarsh Shah   
-![](/intro-k8/images/adarsh.png) 
+![](/docker-k8s-presentation/images/adarsh.png) 
  Independent Consultant
 
  [@shahadarsh](https://twitter.com/shahadarsh)
