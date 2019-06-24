@@ -7,9 +7,9 @@ chapter = true
 
 # Kubernetes API Objects
 
-1. [Namespaces](/docker-k8s-presentation/kubernetes/objects/namespaces)
-2. [Pods](/docker-k8s-presentation/kubernetes/objects/pods)
-3. [Resource Quotas](/docker-k8s-presentation/kubernetes/objects/resource-quotas)
+1. [Pods](/docker-k8s-presentation/kubernetes/objects/pods)
+2. [Resource Quotas](/docker-k8s-presentation/kubernetes/objects/resource-quotas)
+3. [Namespaces](/docker-k8s-presentation/kubernetes/objects/namespaces)
 4. [Controllers](/docker-k8s-presentation/kubernetes/objects/controllers)
 5. [Storage](/docker-k8s-presentation/kubernetes/objects/storage)
 6. [Secrets](/docker-k8s-presentation/kubernetes/objects/secrets)
