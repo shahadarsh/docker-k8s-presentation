@@ -4,25 +4,6 @@ date = 2018-12-09T17:00:31-05:00
 weight = 455
 +++
 
-{{%attachments style="blue" title="Kubernetes yaml files" pattern=".*(yaml)"/%}}
+**Github repo:** https://github.com/shahadarsh/docker-k8s-workshop/
 
-Create the persistent and the claim
-```bash
-kubectl apply -f mysql-pv.yaml
-```
-
-Create a pod that will use it.
-
-```bash
-kubectl apply -f mysql-pod.yaml
-
-```
-
-### Clean up
-```bash
-kubectl delete -f mysql-pv.yaml
-
-kubectl delete -f mysql-pod.yaml
-
-```
-
+**Go to:** exercises/kubernetes/04-storage

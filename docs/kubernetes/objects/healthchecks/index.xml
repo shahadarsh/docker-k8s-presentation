@@ -37,11 +37,7 @@ readinessProbe: exec: command: - cat - /tmp/healthy initialDelaySeconds: 5 perio
       <pubDate>Sun, 09 Dec 2018 17:00:31 -0500</pubDate>
       
       <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/healthchecks/exercises/</guid>
-      <description>Exercises   Kubernetes yaml files   mysql-config.yaml  (0 ko)   mysql-health.yaml  (1 ko)   mysql-pv.yaml  (0 ko)    If you deleted the PV from the previous exercise please recreate it
-kubectl apply -f mysql-pv.yaml  Mysql conf needed for testing
-kubectl create -f mysql-config.yaml  Start the Mysql deployment
-kubectl apply -f mysql-health.yaml  Get the pod name
-POD_NAME=$(kubectl get pods -l app=mysql -o=jsonpath=&#39;{.</description>
+      <description>Go to dir: 07-healthchecks</description>
     </item>
     
   </channel>

@@ -183,17 +183,17 @@
   </url>
   
   <url>
-    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/namespaces/exercises/</loc>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/resourcequotas/</loc>
     <lastmod>2018-12-09T17:00:31-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/namespaces/</loc>
-    <lastmod>2018-12-09T17:05:14-05:00</lastmod>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/pods/exercises/</loc>
+    <lastmod>2018-12-09T17:00:31-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/pods/exercises/</loc>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/resourcequotas/resources/</loc>
     <lastmod>2018-12-09T17:00:31-05:00</lastmod>
   </url>
   
@@ -203,12 +203,12 @@
   </url>
   
   <url>
-    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/resourcequotas/</loc>
-    <lastmod>2018-12-09T17:00:31-05:00</lastmod>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/namespaces/</loc>
+    <lastmod>2018-12-09T17:05:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/resourcequotas/resources/</loc>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/namespaces/exercises/</loc>
     <lastmod>2018-12-09T17:00:31-05:00</lastmod>
   </url>
   
@@ -298,18 +298,8 @@
   </url>
   
   <url>
-    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/ingress/</loc>
-    <lastmod>2018-12-09T17:05:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/ingress/controller/</loc>
-    <lastmod>2018-12-09T17:05:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/ingress/rules/</loc>
-    <lastmod>2018-12-09T17:05:14-05:00</lastmod>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/configmaps/exercises/</loc>
+    <lastmod>2018-12-09T17:00:31-05:00</lastmod>
   </url>
   
   <url>
@@ -435,6 +425,21 @@
   <url>
     <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/security1/</loc>
     <lastmod>2018-12-09T17:13:49-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/ingress/controller/</loc>
+    <lastmod>2018-12-09T17:05:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/ingress/rules/</loc>
+    <lastmod>2018-12-09T17:05:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/ingress/</loc>
+    <lastmod>2018-12-09T17:05:14-05:00</lastmod>
   </url>
   
   <url>

@@ -38,5 +38,14 @@
       <description>1apiVersion: v1 2kind: Pod 3metadata: 4 name: dapi-test-pod 5spec: 6 containers: 7 - name: test-container 8 image: k8s.gcr.io/busybox 9 command: [ &amp;#34;/bin/sh&amp;#34;, &amp;#34;-c&amp;#34;, &amp;#34;echo $(SPECIAL_LEVEL_KEY) $(SPECIAL_TYPE_KEY)&amp;#34; ] 10 env: 11 - name: SPECIAL_LEVEL_KEY 12 valueFrom: 13 configMapKeyRef: 14 name: special-config 15 key: SPECIAL_LEVEL 16 - name: SPECIAL_TYPE_KEY 17 valueFrom: 18 configMapKeyRef: 19 name: special-config 20 key: SPECIAL_TYPE 21 restartPolicy: Never </description>
     </item>
     
+    <item>
+      <title>Exercises</title>
+      <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/configmaps/exercises/</link>
+      <pubDate>Sun, 09 Dec 2018 17:00:31 -0500</pubDate>
+      
+      <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/configmaps/exercises/</guid>
+      <description>Go to dir: 06-config-maps-and-secrets</description>
+    </item>
+    
   </channel>
 </rss>

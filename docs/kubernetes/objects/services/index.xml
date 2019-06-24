@@ -26,8 +26,7 @@
       <pubDate>Sun, 09 Dec 2018 17:00:31 -0500</pubDate>
       
       <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/services/exercises/</guid>
-      <description>Kubernetes yaml files   app.yaml  (1 ko)   mysql-all.yaml  (1 ko)   mysql-service.yaml  (0 ko)    Pod Deployment with health checks, PersistentVolume and claim Since we have created the mysql pod several times, here is a yaml file that creates it all.
-Create a secret for the password between Wordpress and MYSQL kubectl create secret generic mysql-pass --from-literal=password=YOUR_PASSWORD  Verify it is there</description>
+      <description>Go to dir: 05-services</description>
     </item>
     
   </channel>

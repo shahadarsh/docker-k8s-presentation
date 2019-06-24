@@ -252,18 +252,11 @@
 	"content": " Pods Pods are a collection of containers that share a namespace, are colocated and scheduled together on Kubenetes nodes.\nA pod is a group of one or more containers, with shared storage/network, and a specification for how to run the containers\n"
 },
 {
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/namespaces/exercises/",
-	"title": "Exercises",
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/resourcequotas/",
+	"title": "Resource Quotas",
 	"tags": [],
 	"description": "",
-	"content": "Github repo: https://github.com/shahadarsh/docker-k8s-workshop/\nGo to: exercises/kubernetes/02-namespaces\n"
-},
-{
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/namespaces/",
-	"title": "Namespaces",
-	"tags": [],
-	"description": "",
-	"content": " Namespaces What Namespaces are virtual clusters inside your Kubernetes cluster that provide logically isolation (kinda) from each other.\nWhy Scope of names Organization of Kubernetes resources\n "
+	"content": " What Requests - How much does this pod need to run\nLimits - This pod only gets this much to run\nWhy Kubernetes being a multi-tenant environment, some applications may hog resources and starve others, Resource Quotas discourage this behavior\n "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/pods/exercises/",
@@ -273,6 +266,13 @@
 	"content": "Github repo: https://github.com/shahadarsh/docker-k8s-workshop/\nGo to: exercises/kubernetes/01-pods\n"
 },
 {
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/resourcequotas/resources/",
+	"title": "Resource Quotas",
+	"tags": [],
+	"description": "",
+	"content": " Compute Resources  CPU Memory Storage  requests.storage persistentvolumeclaims storage-class-name.storageclass.storage.k8s.io/requests.storage storage-class-name.storageclass.storage.k8s.io/persistentvolumeclaims  Object Count\n configmaps persistentvolumeclaims pods replicationcontrollers resourcequotas services services.loadbalancers services.nodeports secrets  Priority - low, medium, high\n  More info\n"
+},
+{
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/pods/labels_selectors/",
 	"title": "Labels and Selectors",
 	"tags": [],
@@ -280,18 +280,18 @@
 	"content": " Labels Labels are key/value pairs that are attached to objects, such as pods that help to identify that object.\nSelectors Label Selectors help client/user identify a set of objects.\nspec: selector: matchLabels: app: mysql strategy: type: Recreate template: metadata: labels: app: mysql  Demo Create labels \u0026amp; use selector to identify set of objects\n"
 },
 {
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/resourcequotas/",
-	"title": "Resource Quotas",
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/namespaces/",
+	"title": "Namespaces",
 	"tags": [],
 	"description": "",
-	"content": " What Requests - How much does this pod need to run\nLimits - This pod only gets this much to run\nWhy Kubernetes being a multi-tenant environment, some applications may hog resources and starve others, Resource Qoatas discourage this behavior\n "
+	"content": " Namespaces What Namespaces are virtual clusters inside your Kubernetes cluster that provide logically isolation (kinda) from each other.\nWhy Scope of names Organization of Kubernetes resources\n "
 },
 {
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/resourcequotas/resources/",
-	"title": "Resource Quotas",
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/namespaces/exercises/",
+	"title": "Exercises",
 	"tags": [],
 	"description": "",
-	"content": " Compute Resources  CPU Memory Storage  requests.storage persistentvolumeclaims storage-class-name.storageclass.storage.k8s.io/requests.storage storage-class-name.storageclass.storage.k8s.io/persistentvolumeclaims  Object Count\n configmaps persistentvolumeclaims pods replicationcontrollers resourcequotas services services.loadbalancers services.nodeports secrets  Priority - low, medium, high\n  More info\n"
+	"content": "Github repo: https://github.com/shahadarsh/docker-k8s-workshop/\nGo to: exercises/kubernetes/02-namespaces\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/controllers/",
@@ -312,7 +312,7 @@
 	"title": "Controllers Exercises",
 	"tags": [],
 	"description": "",
-	"content": "Github repo: https://github.com/shahadarsh/docker-k8s-workshop/\nGo to: exercises/kubernetes/03-controllers\n"
+	"content": "Go to: exercises/kubernetes/03-controllers\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/storage/",
@@ -354,7 +354,7 @@
 	"title": "Exercises",
 	"tags": [],
 	"description": "",
-	"content": "   Kubernetes yaml files   mysql-pod.yaml  (0 ko)   mysql-pv.yaml  (0 ko)    Create the persistent and the claim\nkubectl apply -f mysql-pv.yaml  Create a pod that will use it.\nkubectl apply -f mysql-pod.yaml  Clean up kubectl delete -f mysql-pv.yaml kubectl delete -f mysql-pod.yaml  "
+	"content": "Github repo: https://github.com/shahadarsh/docker-k8s-workshop/\nGo to: exercises/kubernetes/04-storage\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/secrets/",
@@ -413,25 +413,11 @@
 	"content": "1apiVersion: v1 2kind: Pod 3metadata: 4 name: dapi-test-pod 5spec: 6 containers: 7 - name: test-container 8 image: k8s.gcr.io/busybox 9 command: [ \u0026#34;/bin/sh\u0026#34;, \u0026#34;-c\u0026#34;, \u0026#34;echo $(SPECIAL_LEVEL_KEY) $(SPECIAL_TYPE_KEY)\u0026#34; ] 10 env: 11 - name: SPECIAL_LEVEL_KEY 12 valueFrom: 13 configMapKeyRef: 14 name: special-config 15 key: SPECIAL_LEVEL 16 - name: SPECIAL_TYPE_KEY 17 valueFrom: 18 configMapKeyRef: 19 name: special-config 20 key: SPECIAL_TYPE 21 restartPolicy: Never "
 },
 {
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/ingress/",
-	"title": "ingress",
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/configmaps/exercises/",
+	"title": "Exercises",
 	"tags": [],
 	"description": "",
-	"content": " What Ingress is a K8 object that allows external access to resources inside the cluster\nWhy Services, Pods and other objects are only accessible inside the cluster\n "
-},
-{
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/ingress/controller/",
-	"title": "Ingress Controllers",
-	"tags": [],
-	"description": "",
-	"content": " Ingress controllers In order for the ingress resource to work, the cluster must have an ingress controller running. This is unlike other types of controllers, which run as part of the kube-controller-manager binary, and are typically started automatically with a cluster. Choose the ingress controller implementation that best fits your cluster.\nIngress Controller\napiVersion: extensions/v1beta1 kind: Ingress metadata: name: test-ingress spec: backend: serviceName: testsvc servicePort: 80  Kubernetes supported Ingress Controllers:\n GCE nginx  Others that can be deployed:\n HAProxy Kong Contour  Full list is here\n"
-},
-{
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/ingress/rules/",
-	"title": "Ingress Rules",
-	"tags": [],
-	"description": "",
-	"content": "Each http rule contains the following information:\n Host list of paths Backend service  Ingress Rule\napiVersion: extensions/v1beta1 kind: Ingress metadata: name: simple-fanout-example annotations: nginx.ingress.kubernetes.io/rewrite-target: / spec: rules: - host: foo.bar.com http: paths: - path: /foo backend: serviceName: service1 servicePort: 4200 - path: /bar backend: serviceName: service2 servicePort: 8080  "
+	"content": "Go to dir: 06-config-maps-and-secrets\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/services/",
@@ -452,7 +438,7 @@
 	"title": "Exercises",
 	"tags": [],
 	"description": "",
-	"content": "   Kubernetes yaml files   app.yaml  (1 ko)   mysql-all.yaml  (1 ko)   mysql-service.yaml  (0 ko)    Pod Deployment with health checks, PersistentVolume and claim Since we have created the mysql pod several times, here is a yaml file that creates it all.\nCreate a secret for the password between Wordpress and MYSQL kubectl create secret generic mysql-pass --from-literal=password=YOUR_PASSWORD  Verify it is there\nkubectl get secrets  Deploy mysql\nkubectl apply -f mysql-all.yaml  Verify mysql deployed properly\nkubectl get deploy  Services Deploy the service for mysql\nkubectl apply -f mysql-service.yaml  Verify the service has endpoints.\nkubectl get services -o wide  Application Deployment deploy the application that will use mysqld\nkubectl apply -f app.yaml  Verify Service\nkubectl get services wordpress  Clean up kubectl delete -f mysql-all.yaml kubectl delete -f mysql-service.yaml kubectl delete -f app.yaml  "
+	"content": "Go to dir: 05-services\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/healthchecks/",
@@ -487,7 +473,7 @@
 	"title": "Exercises",
 	"tags": [],
 	"description": "",
-	"content": " Exercises   Kubernetes yaml files   mysql-config.yaml  (0 ko)   mysql-health.yaml  (1 ko)   mysql-pv.yaml  (0 ko)    If you deleted the PV from the previous exercise please recreate it\nkubectl apply -f mysql-pv.yaml  Mysql conf needed for testing\nkubectl create -f mysql-config.yaml  Start the Mysql deployment\nkubectl apply -f mysql-health.yaml  Get the pod name\nPOD_NAME=$(kubectl get pods -l app=mysql -o=jsonpath='{.items[0].metadata.name}')  Describe pod should display a healthy pod\nkubectl describe pod $POD_NAME  Breaking the readiness probe\nkubectl exec $POD_NAME -c mysql -- mv /usr/bin/mysql /usr/bin/mysql.off  Check to see if the pods is running\nkubectl get pods -l app=mysql  Output if the pod is not running\nNAME READY STATUS RESTARTS AGE mysql-6b98cc4475-xgwkp 0/1 Running 0 6m  Get more details about the pod\nkubectl describe pod $POD_NAME  Output from the error\nReadiness probe failed: OCI runtime exec failed: exec failed: container_linux.go:348: starting container process caused \u0026quot;exec: \\\u0026quot;/usr/bin/mysql\\\u0026quot;: stat /usr/bin/mysql: no such file or directory\u0026quot;: unknown  Fix the readiness probe\nkubectl exec $POD_NAME -c mysql -- mv /usr/bin/mysql.off /usr/bin/mysql  Output now that the pods is running again\nNAME READY STATUS RESTARTS AGE mysql-6b98cc4475-xgwkp 1/1 Running 0 6m  "
+	"content": "Go to dir: 07-healthchecks\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/docker/",
@@ -607,6 +593,27 @@
 	"tags": [],
 	"description": "",
 	"content": " K8 Security  RBAC NetworkPolicy TLS Image Scanning Aquasec/Twistlock Integrating with HashiCorp Vault other public cloud secret stores Investigate using a container based OS (CoreOS, Atomic Linux) Harden and tweak Make sure to pass https://github.com/dev-sec/linux-baseline  Vendors to add  Aquasec https://www.aquasec.com/ Twistlock https://www.twistlock.com/ Sysdig Falco https://www.sysdig.org/falco/  "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/ingress/controller/",
+	"title": "Ingress Controllers",
+	"tags": [],
+	"description": "",
+	"content": " Ingress controllers In order for the ingress resource to work, the cluster must have an ingress controller running. This is unlike other types of controllers, which run as part of the kube-controller-manager binary, and are typically started automatically with a cluster. Choose the ingress controller implementation that best fits your cluster.\nIngress Controller\napiVersion: extensions/v1beta1 kind: Ingress metadata: name: test-ingress spec: backend: serviceName: testsvc servicePort: 80  Kubernetes supported Ingress Controllers:\n GCE nginx  Others that can be deployed:\n HAProxy Kong Contour  Full list is here\n"
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/ingress/rules/",
+	"title": "Ingress Rules",
+	"tags": [],
+	"description": "",
+	"content": "Each http rule contains the following information:\n Host list of paths Backend service  Ingress Rule\napiVersion: extensions/v1beta1 kind: Ingress metadata: name: simple-fanout-example annotations: nginx.ingress.kubernetes.io/rewrite-target: / spec: rules: - host: foo.bar.com http: paths: - path: /foo backend: serviceName: service1 servicePort: 4200 - path: /bar backend: serviceName: service2 servicePort: 8080  "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/ingress/",
+	"title": "ingress",
+	"tags": [],
+	"description": "",
+	"content": " What Ingress is a K8 object that allows external access to resources inside the cluster\nWhy Services, Pods and other objects are only accessible inside the cluster\n "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/categories/",
