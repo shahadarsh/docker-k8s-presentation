@@ -12,14 +12,13 @@
     
     
     <item>
-      <title>Exercises</title>
+      <title>Pod Exercises</title>
       <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/pods/exercises/</link>
       <pubDate>Sun, 09 Dec 2018 17:00:31 -0500</pubDate>
       
       <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/pods/exercises/</guid>
-      <description>Kubernetes github repo
-Start a pod from a manifest kubectl apply -f single-pod-nginx.yaml  Verify the state of the pod kubectl get pods NAME READY STATUS RESTARTS AGE nginx 1/1 Running 0 44s  Get more details of the pod kubectl describe pod nginx  Accessing your pod kubectl port-forward nginx 8080:80  Logs kubectl logs -f nginx  Navigate to http://localhost:8080 in your web browser
-Multi container pod Start a pod from a manifest kubectl apply -f multi-pod.</description>
+      <description>Github repo: https://github.com/shahadarsh/docker-k8s-workshop/
+Go to: exercises/kubernetes/01-pods</description>
     </item>
     
     <item>

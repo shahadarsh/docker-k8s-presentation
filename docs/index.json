@@ -176,10 +176,10 @@
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/connect/",
-	"title": "Connect",
+	"title": "Connecting to Cluster",
 	"tags": [],
 	"description": "",
-	"content": " Connecting to your GKE Cluster Prerequisites Follow the Requirements\nGoogle SDK Setup Follow the verification steps\ngcloud auth login  Configure SDK ./gcloud-setup.sh  Retrieve Cluster Credentials (make sure there\u0026rsquo;s no conflict with a pre-existing KUBECONFIG var) gcloud container clusters get-credentials \u0026lt;cluster-name\u0026gt; --region \u0026lt;region\u0026gt;  Confirm Cluster Connectivity kubectl cluster-info  "
+	"content": "Github repo: https://github.com/shahadarsh/docker-k8s-workshop/\nGo to: exercises/kubernetes/00-cluster-connect\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/network/dockernetop/",
@@ -214,7 +214,7 @@
 	"title": "Objects",
 	"tags": [],
 	"description": "",
-	"content": " Kubernetes API Objects  Namespaces Pods Resource Quotas Controllers Storage Secrets ConfigMaps Ingress Service Healthchecks  "
+	"content": " Kubernetes API Objects  Pods Resource Quotas Namespaces Controllers Storage Secrets ConfigMaps Ingress Service Healthchecks  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/storage/layers/",
@@ -245,20 +245,6 @@
 	"content": " Docker Volume command The docker volume command contains a number of sub commands used to create and manage volumes Commands are\n docker volume create docker volume ls docker volume inspect docker volume rm  "
 },
 {
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/namespaces/",
-	"title": "Namespaces",
-	"tags": [],
-	"description": "",
-	"content": " Namespaces What Namespaces are virtual clusters inside your Kubernetes cluster that provide logically isolation (kinda) from each other.\nWhy Scope of names Organization of Kubernetes resources\n "
-},
-{
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/namespaces/exercises/",
-	"title": "Exercises",
-	"tags": [],
-	"description": "",
-	"content": "  Kubernetes yaml files   createNamespace.yaml  (0 ko)    Update createNamespace.yaml with your namespace\nCreate your namespace\nkubectl create -f ./createNamespace.yaml  Verify your namespace exists\n$ kubectl get namespaces NAME STATUS AGE default Active 1d kube-system Active 1d kube-public Active 1d YOUR_NAME_SPACE Active 1d  Set your namespace to the default\nkubectl config set-context $(kubectl config current-context) --namespace=\u0026lt;insert-namespace-name-here\u0026gt;  Validate it\nkubectl config view | grep namespace:  "
-},
-{
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/pods/",
 	"title": "Pods",
 	"tags": [],
@@ -266,11 +252,25 @@
 	"content": " Pods Pods are a collection of containers that share a namespace, are colocated and scheduled together on Kubenetes nodes.\nA pod is a group of one or more containers, with shared storage/network, and a specification for how to run the containers\n"
 },
 {
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/pods/exercises/",
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/namespaces/exercises/",
 	"title": "Exercises",
 	"tags": [],
 	"description": "",
-	"content": " Kubernetes github repo\nStart a pod from a manifest kubectl apply -f single-pod-nginx.yaml  Verify the state of the pod kubectl get pods NAME READY STATUS RESTARTS AGE nginx 1/1 Running 0 44s  Get more details of the pod kubectl describe pod nginx  Accessing your pod kubectl port-forward nginx 8080:80  Logs kubectl logs -f nginx  Navigate to http://localhost:8080 in your web browser\nMulti container pod Start a pod from a manifest kubectl apply -f multi-pod.yaml  kubectl describe pod multi-pod  Accessing your pod kubectl port-forward multi-pod 8080:80  Navigate to http://localhost:8080/date.log in your web browser\nCleanup kubectl delete -f single-pod-nginx.yaml kubectl delete -f multi-pod.yaml  "
+	"content": "Github repo: https://github.com/shahadarsh/docker-k8s-workshop/\nGo to: exercises/kubernetes/02-namespaces\n"
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/namespaces/",
+	"title": "Namespaces",
+	"tags": [],
+	"description": "",
+	"content": " Namespaces What Namespaces are virtual clusters inside your Kubernetes cluster that provide logically isolation (kinda) from each other.\nWhy Scope of names Organization of Kubernetes resources\n "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/pods/exercises/",
+	"title": "Pod Exercises",
+	"tags": [],
+	"description": "",
+	"content": "Github repo: https://github.com/shahadarsh/docker-k8s-workshop/\nGo to: exercises/kubernetes/01-pods\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/pods/labels_selectors/",
