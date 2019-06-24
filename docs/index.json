@@ -294,13 +294,6 @@
 	"content": " Compute Resources  CPU Memory Storage  requests.storage persistentvolumeclaims storage-class-name.storageclass.storage.k8s.io/requests.storage storage-class-name.storageclass.storage.k8s.io/persistentvolumeclaims  Object Count\n configmaps persistentvolumeclaims pods replicationcontrollers resourcequotas services services.loadbalancers services.nodeports secrets  Priority - low, medium, high\n  More info\n"
 },
 {
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/resourcequotas/exercises/",
-	"title": "Exercises",
-	"tags": [],
-	"description": "",
-	"content": "   Kubernetes yaml files   pod-limits.yaml  (0 ko)   pod-no-quotas.yaml  (0 ko)   pod-only-limit.yaml  (0 ko)   pod-only-request.yaml  (0 ko)   quotas.yaml  (0 ko)    Deploy default resources quotas for your namespace\nkubectl create -f quotas.yaml kubectl describe quota  Verify qoutas\nkubectl get resourcequota mem-cpu-rq --output=yaml  Deploy specific limits and requests for pods\nkubectl create -f pod-limits.yaml kubectl describe limits mem-limit-range  Deploy pods with only limits\nkubectl create -f pod-only-limit.yaml Error from server (Forbidden): error when creating \u0026quot;pod-only-limit.yaml\u0026quot;: pods \u0026quot;only-limits\u0026quot; is forbidden: failed quota: mem-cpu-rq: must specify limits.cpu,requests.cpu  Deploy pods with only requests\nkubectl create -f pod-only-request.yaml Error from server (Forbidden): error when creating \u0026quot;pod-only-request.yaml\u0026quot;: pods \u0026quot;only-requests\u0026quot; is forbidden: failed quota: mem-cpu-rq: must specify limits.cpu,requests.cpu  Deploy pod with neither and see defaults applied from the namespace\nkubectl create -f pod-no-quotas.yaml Error from server (Forbidden): error when creating \u0026quot;pod-no-quotas.yaml\u0026quot;: pods \u0026quot;no-quotas\u0026quot; is forbidden: failed quota: mem-cpu-rq: must specify limits.cpu,requests.cpu  Please Delete Quotas! kubectl delete -f quotas.yaml kubectl delete -f pod-limits.yaml  "
-},
-{
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/controllers/",
 	"title": "Controllers",
 	"tags": [],
@@ -316,10 +309,10 @@
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/controllers/exercises/",
-	"title": "Exercises",
+	"title": "Controllers Exercises",
 	"tags": [],
 	"description": "",
-	"content": " In these exercises we will be working with these controllers, later we will working with Endpoints, since they are directly related to Services.\n  Kubernetes yaml files   deploy-nginx-1.9.1-scale.yaml  (0 ko)   deploy-nginx-1.9.1.yaml  (0 ko)   deploy-nginx.yaml  (0 ko)   replicaset.yaml  (0 ko)    Deployment Controller - Responsible for the controlled deployment of pods and ReplicaSets.\nReplicaSets - is the newest version of the Replication Controller. The only difference between a ReplicaSet and a Replication Controller right now is the selector support.\nReplicaSets Create the replicaset\nkubectl apply -f replicaset.yaml  Get the status of the replicaset\nkubectl get replicaset  Retrieve detailed information about the replicaset\nkubectl describe replicaset frontend  See the status of pods deployed with replicaset\nkubectl get pods -l tier: frontend  Select one of the pods from the ReplicaSet\nkubect port-forward \u0026lt;ONE_POD_FROM_REPLICASET\u0026gt; 8080:80  In another terminal window run\nkubectl logs -f \u0026lt;POD_FROM_REPLICASET\u0026gt;  Go to http://localhost:8080/\nYou should see logs streaming to the console\nScale a ReplicaSet\nkubectl scale --replicas=4 rs/frontend  The replicas will run 4 pods now\nkubectl describe rs/frontend  kubectl get pods -l tier: frontend  Deployment Controller Create the nginx deployment\nkubectl create -f deploy-nginx.yaml  Get deployment information\nkubectl get deployments  Where is the deployment\nkubectl rollout status deployment/nginx-deployment  Update the deployments\nkubectl apply -f deploy-nginx-1.9.1.yaml  Where is the deployment\nkubectl rollout status deployment/nginx-deployment  History of deployment\nkubectl get replicaset  View the pods in the deployment\nkubectl get pods  Get more detailed information about the deployment\nkubectl describe deployment nginx-deployment  Scale the deployment\nkubectl apply -f deploy-nginx-1.9.1-scale.yaml  Cleanup kubectl delete -f replicaset.yaml kubectl delete -f deploy-nginx.yaml  "
+	"content": "Github repo: https://github.com/shahadarsh/docker-k8s-workshop/\nGo to: exercises/kubernetes/03-controllers\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/storage/",

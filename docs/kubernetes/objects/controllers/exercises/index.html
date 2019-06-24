@@ -10,22 +10,22 @@
     <link rel="shortcut icon" href="/docker-k8s-presentation/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/docker-k8s-presentation/images/favicon.png" type="image/x-icon" />
 
-    <title>Exercises :: Introduction to Kubernetes</title>
+    <title>Controllers Exercises :: Introduction to Kubernetes</title>
 
     
-    <link href="/docker-k8s-presentation/css/nucleus.css?1561368481" rel="stylesheet">
-    <link href="/docker-k8s-presentation/css/fontawesome-all.min.css?1561368481" rel="stylesheet">
-    <link href="/docker-k8s-presentation/css/hybrid.css?1561368481" rel="stylesheet">
-    <link href="/docker-k8s-presentation/css/featherlight.min.css?1561368481" rel="stylesheet">
-    <link href="/docker-k8s-presentation/css/perfect-scrollbar.min.css?1561368481" rel="stylesheet">
-    <link href="/docker-k8s-presentation/css/auto-complete.css?1561368481" rel="stylesheet">
-    <link href="/docker-k8s-presentation/css/theme.css?1561368481" rel="stylesheet">
-    <link href="/docker-k8s-presentation/css/hugo-theme.css?1561368481" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/nucleus.css?1561369452" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/fontawesome-all.min.css?1561369452" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/hybrid.css?1561369452" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/featherlight.min.css?1561369452" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/perfect-scrollbar.min.css?1561369452" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/auto-complete.css?1561369452" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/theme.css?1561369452" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/hugo-theme.css?1561369452" rel="stylesheet">
     
-      <link href="/docker-k8s-presentation/css/theme-mine.css?1561368481" rel="stylesheet">
+      <link href="/docker-k8s-presentation/css/theme-mine.css?1561369452" rel="stylesheet">
     
 
-    <script src="/docker-k8s-presentation/js/jquery-2.x.min.js?1561368481"></script>
+    <script src="/docker-k8s-presentation/js/jquery-2.x.min.js?1561369452"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -52,14 +52,14 @@
     <span data-search-clear=""><i class="fas fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/docker-k8s-presentation/js/lunr.min.js?1561368481"></script>
-<script type="text/javascript" src="/docker-k8s-presentation/js/auto-complete.js?1561368481"></script>
+<script type="text/javascript" src="/docker-k8s-presentation/js/lunr.min.js?1561369452"></script>
+<script type="text/javascript" src="/docker-k8s-presentation/js/auto-complete.js?1561369452"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/shahadarsh.github.io\/docker-k8s-presentation\/";
     
 </script>
-<script type="text/javascript" src="/docker-k8s-presentation/js/search.js?1561368481"></script>
+<script type="text/javascript" src="/docker-k8s-presentation/js/search.js?1561369452"></script>
 
     
   </div>
@@ -1149,25 +1149,6 @@
 
             
           
-            
-            
-
-
- 
-  
-    
-      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/resourcequotas/exercises/" title="Exercises" class="dd-item ">
-        <a href="/docker-k8s-presentation/kubernetes/objects/resourcequotas/exercises/">
-        Exercises
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
         
         </ul>
               
@@ -1228,9 +1209,9 @@
  
   
     
-      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/controllers/exercises/" title="Exercises" class="dd-item active">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/objects/controllers/exercises/" title="Controllers Exercises" class="dd-item active">
         <a href="/docker-k8s-presentation/kubernetes/objects/controllers/exercises/">
-        Exercises
+        Controllers Exercises
         
         </a>
     </li>
@@ -2158,7 +2139,7 @@
             
           
           
-            <a href='/docker-k8s-presentation/'>Introduction to Kubernetes</a> > <a href='/docker-k8s-presentation/kubernetes/'>Kubernetes</a> > <a href='/docker-k8s-presentation/kubernetes/objects/'>Objects</a> > <a href='/docker-k8s-presentation/kubernetes/objects/controllers/'>Controllers</a> > Exercises
+            <a href='/docker-k8s-presentation/'>Introduction to Kubernetes</a> > <a href='/docker-k8s-presentation/kubernetes/'>Kubernetes</a> > <a href='/docker-k8s-presentation/kubernetes/objects/'>Objects</a> > <a href='/docker-k8s-presentation/kubernetes/objects/controllers/'>Controllers</a> > Controllers Exercises
           
          
           
@@ -2175,22 +2156,7 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#replicasets">ReplicaSets</a></li>
-<li><a href="#deployment-controller">Deployment Controller</a></li>
-</ul></li>
-<li><a href="#cleanup">Cleanup</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</nav>
+
     </div>
 </div>
 
@@ -2202,186 +2168,15 @@
         
         <div id="body-inner">
           
-            <h1>Exercises</h1>
+            <h1>Controllers Exercises</h1>
           
 
         
 
 
+<p><strong>Github repo:</strong> <a href="https://github.com/shahadarsh/docker-k8s-workshop/">https://github.com/shahadarsh/docker-k8s-workshop/</a></p>
 
-
-<p>In these exercises we will be working with these controllers, later we will working with Endpoints, since they are directly related to Services.</p>
-
-<section class="attachments blue">
-    <label>
-        <i class="fas fa-paperclip" aria-hidden="true"></i>
-        Kubernetes yaml files
-    </label>
-    
-        
-    
-    <div class="attachments-files">
-    
-        
-        
-            
-                <li>
-                    <a href="/docker-k8s-presentation/kubernetes/objects/controllers/exercises.files/deploy-nginx-1.9.1-scale.yaml" >
-                        deploy-nginx-1.9.1-scale.yaml
-                    </a>
-                    (0 ko)
-                </li>
-            
-        
-    
-        
-        
-            
-                <li>
-                    <a href="/docker-k8s-presentation/kubernetes/objects/controllers/exercises.files/deploy-nginx-1.9.1.yaml" >
-                        deploy-nginx-1.9.1.yaml
-                    </a>
-                    (0 ko)
-                </li>
-            
-        
-    
-        
-        
-            
-                <li>
-                    <a href="/docker-k8s-presentation/kubernetes/objects/controllers/exercises.files/deploy-nginx.yaml" >
-                        deploy-nginx.yaml
-                    </a>
-                    (0 ko)
-                </li>
-            
-        
-    
-        
-        
-            
-                <li>
-                    <a href="/docker-k8s-presentation/kubernetes/objects/controllers/exercises.files/replicaset.yaml" >
-                        replicaset.yaml
-                    </a>
-                    (0 ko)
-                </li>
-            
-        
-    
-    <div>
-    
-</section>
-
-<p><a href="https://kubernetes.io/docs/concepts/workloads/controllers/deployment/">Deployment Controller</a> - Responsible for the controlled deployment of pods and ReplicaSets.</p>
-
-<p><a href="https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/">ReplicaSets</a> -  is the newest version of the Replication Controller. The only difference between a ReplicaSet and a Replication Controller right now is the selector support.</p>
-
-<h4 id="replicasets">ReplicaSets</h4>
-
-<p>Create the replicaset</p>
-
-<pre><code class="language-bash">kubectl apply -f replicaset.yaml
-</code></pre>
-
-<p>Get the status of the replicaset</p>
-
-<pre><code>kubectl get replicaset
-</code></pre>
-
-<p>Retrieve detailed information about the replicaset</p>
-
-<pre><code>kubectl describe replicaset frontend
-</code></pre>
-
-<p>See the status of pods deployed with replicaset</p>
-
-<pre><code>kubectl get pods -l tier: frontend
-</code></pre>
-
-<p>Select one of the pods from the ReplicaSet</p>
-
-<pre><code>kubect port-forward &lt;ONE_POD_FROM_REPLICASET&gt; 8080:80
-</code></pre>
-
-<p>In another terminal window run</p>
-
-<pre><code>kubectl logs -f &lt;POD_FROM_REPLICASET&gt;
-</code></pre>
-
-<p>Go to <a href="http://localhost:8080/">http://localhost:8080/</a></p>
-
-<p>You should see logs streaming to the console</p>
-
-<p>Scale a ReplicaSet</p>
-
-<pre><code>kubectl scale --replicas=4 rs/frontend
-</code></pre>
-
-<p>The replicas will run 4 pods now</p>
-
-<pre><code>kubectl describe rs/frontend
-</code></pre>
-
-<pre><code>kubectl get pods -l tier: frontend
-
-</code></pre>
-
-<h4 id="deployment-controller">Deployment Controller</h4>
-
-<p>Create the nginx deployment</p>
-
-<pre><code>kubectl create -f deploy-nginx.yaml
-</code></pre>
-
-<p>Get deployment information</p>
-
-<pre><code>kubectl get deployments
-</code></pre>
-
-<p>Where is the deployment</p>
-
-<pre><code>kubectl rollout status deployment/nginx-deployment
-</code></pre>
-
-<p>Update the deployments</p>
-
-<pre><code>kubectl apply -f deploy-nginx-1.9.1.yaml 
-</code></pre>
-
-<p>Where is the deployment</p>
-
-<pre><code>kubectl rollout status deployment/nginx-deployment
-</code></pre>
-
-<p>History of deployment</p>
-
-<pre><code>kubectl get replicaset
-</code></pre>
-
-<p>View the pods in the deployment</p>
-
-<pre><code>kubectl get pods
-</code></pre>
-
-<p>Get more detailed information about the deployment</p>
-
-<pre><code>kubectl describe deployment nginx-deployment
-</code></pre>
-
-<p>Scale the deployment</p>
-
-<pre><code>kubectl apply -f deploy-nginx-1.9.1-scale.yaml 
-</code></pre>
-
-<h3 id="cleanup">Cleanup</h3>
-
-<pre><code class="language-bash">kubectl delete -f replicaset.yaml
-
-kubectl delete -f deploy-nginx.yaml
-
-</code></pre>
+<p><strong>Go to:</strong> exercises/kubernetes/03-controllers</p>
 
 
 <footer class=" footline" >
@@ -3161,22 +2956,6 @@ kubectl delete -f deploy-nginx.yaml
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -3856,20 +3635,20 @@ kubectl delete -f deploy-nginx.yaml
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/docker-k8s-presentation/js/clipboard.min.js?1561368481"></script>
-    <script src="/docker-k8s-presentation/js/perfect-scrollbar.min.js?1561368481"></script>
-    <script src="/docker-k8s-presentation/js/perfect-scrollbar.jquery.min.js?1561368481"></script>
-    <script src="/docker-k8s-presentation/js/jquery.sticky.js?1561368481"></script>
-    <script src="/docker-k8s-presentation/js/featherlight.min.js?1561368481"></script>
-    <script src="/docker-k8s-presentation/js/html5shiv-printshiv.min.js?1561368481"></script>
-    <script src="/docker-k8s-presentation/js/highlight.pack.js?1561368481"></script>
+    <script src="/docker-k8s-presentation/js/clipboard.min.js?1561369452"></script>
+    <script src="/docker-k8s-presentation/js/perfect-scrollbar.min.js?1561369452"></script>
+    <script src="/docker-k8s-presentation/js/perfect-scrollbar.jquery.min.js?1561369452"></script>
+    <script src="/docker-k8s-presentation/js/jquery.sticky.js?1561369452"></script>
+    <script src="/docker-k8s-presentation/js/featherlight.min.js?1561369452"></script>
+    <script src="/docker-k8s-presentation/js/html5shiv-printshiv.min.js?1561369452"></script>
+    <script src="/docker-k8s-presentation/js/highlight.pack.js?1561369452"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/docker-k8s-presentation/js/modernizr.custom.71422.js?1561368481"></script>
-    <script src="/docker-k8s-presentation/js/learn.js?1561368481"></script>
-    <script src="/docker-k8s-presentation/js/hugo-learn.js?1561368481"></script>
+    <script src="/docker-k8s-presentation/js/modernizr.custom.71422.js?1561369452"></script>
+    <script src="/docker-k8s-presentation/js/learn.js?1561369452"></script>
+    <script src="/docker-k8s-presentation/js/hugo-learn.js?1561369452"></script>
 
-    <link href="/docker-k8s-presentation/mermaid/mermaid.css?1561368481" type="text/css" rel="stylesheet" />
-    <script src="/docker-k8s-presentation/mermaid/mermaid.js?1561368481"></script>
+    <link href="/docker-k8s-presentation/mermaid/mermaid.css?1561369452" type="text/css" rel="stylesheet" />
+    <script src="/docker-k8s-presentation/mermaid/mermaid.js?1561369452"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

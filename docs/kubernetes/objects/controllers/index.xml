@@ -21,14 +21,13 @@
     </item>
     
     <item>
-      <title>Exercises</title>
+      <title>Controllers Exercises</title>
       <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/controllers/exercises/</link>
       <pubDate>Sun, 09 Dec 2018 17:00:31 -0500</pubDate>
       
       <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/controllers/exercises/</guid>
-      <description>In these exercises we will be working with these controllers, later we will working with Endpoints, since they are directly related to Services.
-  Kubernetes yaml files   deploy-nginx-1.9.1-scale.yaml  (0 ko)   deploy-nginx-1.9.1.yaml  (0 ko)   deploy-nginx.yaml  (0 ko)   replicaset.yaml  (0 ko)    Deployment Controller - Responsible for the controlled deployment of pods and ReplicaSets.
-ReplicaSets - is the newest version of the Replication Controller.</description>
+      <description>Github repo: https://github.com/shahadarsh/docker-k8s-workshop/
+Go to: exercises/kubernetes/03-controllers</description>
     </item>
     
   </channel>

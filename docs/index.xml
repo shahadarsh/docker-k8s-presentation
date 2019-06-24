@@ -221,18 +221,6 @@ spec: selector: matchLabels: app: mysql strategy: type: Recreate template: metad
     </item>
     
     <item>
-      <title>Exercises</title>
-      <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/resourcequotas/exercises/</link>
-      <pubDate>Sun, 09 Dec 2018 17:00:31 -0500</pubDate>
-      
-      <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/resourcequotas/exercises/</guid>
-      <description>Kubernetes yaml files   pod-limits.yaml  (0 ko)   pod-no-quotas.yaml  (0 ko)   pod-only-limit.yaml  (0 ko)   pod-only-request.yaml  (0 ko)   quotas.yaml  (0 ko)    Deploy default resources quotas for your namespace
-kubectl create -f quotas.yaml kubectl describe quota  Verify qoutas
-kubectl get resourcequota mem-cpu-rq --output=yaml  Deploy specific limits and requests for pods
-kubectl create -f pod-limits.</description>
-    </item>
-    
-    <item>
       <title>Controllers Updates</title>
       <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/controllers/updates/</link>
       <pubDate>Sun, 09 Dec 2018 17:00:31 -0500</pubDate>
@@ -242,14 +230,13 @@ kubectl create -f pod-limits.</description>
     </item>
     
     <item>
-      <title>Exercises</title>
+      <title>Controllers Exercises</title>
       <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/controllers/exercises/</link>
       <pubDate>Sun, 09 Dec 2018 17:00:31 -0500</pubDate>
       
       <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/controllers/exercises/</guid>
-      <description>In these exercises we will be working with these controllers, later we will working with Endpoints, since they are directly related to Services.
-  Kubernetes yaml files   deploy-nginx-1.9.1-scale.yaml  (0 ko)   deploy-nginx-1.9.1.yaml  (0 ko)   deploy-nginx.yaml  (0 ko)   replicaset.yaml  (0 ko)    Deployment Controller - Responsible for the controlled deployment of pods and ReplicaSets.
-ReplicaSets - is the newest version of the Replication Controller.</description>
+      <description>Github repo: https://github.com/shahadarsh/docker-k8s-workshop/
+Go to: exercises/kubernetes/03-controllers</description>
     </item>
     
     <item>
