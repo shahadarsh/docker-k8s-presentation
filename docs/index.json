@@ -480,7 +480,7 @@
 	"title": "Readiness",
 	"tags": [],
 	"description": "",
-	"content": " Readiness and Liveliness Readiness Readiness checks let the kubelet know that the pod is ready to receive traffic. For example if this check fails the Service or Load balancer does send traffic to that pod.\nreadinessProbe: exec: command: - cat - /tmp/healthy initialDelaySeconds: 5 periodSeconds: 5  "
+	"content": " Readiness and Liveliness Readiness Readiness checks let the kubelet know that the pod is ready to receive traffic. For example if this check fails the Service or Load balancer does not send traffic to that pod.\nreadinessProbe: exec: command: - cat - /tmp/healthy initialDelaySeconds: 5 periodSeconds: 5  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/healthchecks/exercises/",
