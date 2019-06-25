@@ -189,7 +189,7 @@
 	"content": "Github repo: https://github.com/shahadarsh/docker-k8s-workshop/\nGo to: exercises/kubernetes/00-cluster-connect\n"
 },
 {
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/microservices/",
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/micro/",
 	"title": "Microservices exercise",
 	"tags": [],
 	"description": "",
@@ -495,13 +495,6 @@
 	"tags": [],
 	"description": "",
 	"content": " Docker Benefits Platform Dockerfile Docker cli Docker Exercise "
-},
-{
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/micro/",
-	"title": "Microservices Exercise",
-	"tags": [],
-	"description": "",
-	"content": "Git clone Exercises\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/docker/benefits/",
