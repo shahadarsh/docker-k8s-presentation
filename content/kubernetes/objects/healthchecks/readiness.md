@@ -9,7 +9,7 @@ weight = 495
 
 
 ## Readiness
-Readiness checks let the kubelet know that the pod is ready to receive traffic. For example if this check fails the Service or Load balancer does send traffic to that pod.
+Readiness checks let the kubelet know that the pod is ready to receive traffic. For example if this check fails the Service or Load balancer does not send traffic to that pod.
 
 ```yaml
 readinessProbe:
