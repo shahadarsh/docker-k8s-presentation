@@ -10,22 +10,22 @@
     <link rel="shortcut icon" href="/docker-k8s-presentation/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/docker-k8s-presentation/images/favicon.png" type="image/x-icon" />
 
-    <title>Cleanup :: Introduction to Kubernetes</title>
+    <title>Connecting to Cluster :: Introduction to Kubernetes</title>
 
     
-    <link href="/docker-k8s-presentation/css/nucleus.css?1561387289" rel="stylesheet">
-    <link href="/docker-k8s-presentation/css/fontawesome-all.min.css?1561387289" rel="stylesheet">
-    <link href="/docker-k8s-presentation/css/hybrid.css?1561387289" rel="stylesheet">
-    <link href="/docker-k8s-presentation/css/featherlight.min.css?1561387289" rel="stylesheet">
-    <link href="/docker-k8s-presentation/css/perfect-scrollbar.min.css?1561387289" rel="stylesheet">
-    <link href="/docker-k8s-presentation/css/auto-complete.css?1561387289" rel="stylesheet">
-    <link href="/docker-k8s-presentation/css/theme.css?1561387289" rel="stylesheet">
-    <link href="/docker-k8s-presentation/css/hugo-theme.css?1561387289" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/nucleus.css?1561444075" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/fontawesome-all.min.css?1561444075" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/hybrid.css?1561444075" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/featherlight.min.css?1561444075" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/perfect-scrollbar.min.css?1561444075" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/auto-complete.css?1561444075" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/theme.css?1561444075" rel="stylesheet">
+    <link href="/docker-k8s-presentation/css/hugo-theme.css?1561444075" rel="stylesheet">
     
-      <link href="/docker-k8s-presentation/css/theme-mine.css?1561387289" rel="stylesheet">
+      <link href="/docker-k8s-presentation/css/theme-mine.css?1561444075" rel="stylesheet">
     
 
-    <script src="/docker-k8s-presentation/js/jquery-2.x.min.js?1561387289"></script>
+    <script src="/docker-k8s-presentation/js/jquery-2.x.min.js?1561444075"></script>
 
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{
@@ -52,14 +52,14 @@
     <span data-search-clear=""><i class="fas fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/docker-k8s-presentation/js/lunr.min.js?1561387289"></script>
-<script type="text/javascript" src="/docker-k8s-presentation/js/auto-complete.js?1561387289"></script>
+<script type="text/javascript" src="/docker-k8s-presentation/js/lunr.min.js?1561444075"></script>
+<script type="text/javascript" src="/docker-k8s-presentation/js/auto-complete.js?1561444075"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/shahadarsh.github.io\/docker-k8s-presentation\/";
     
 </script>
-<script type="text/javascript" src="/docker-k8s-presentation/js/search.js?1561387289"></script>
+<script type="text/javascript" src="/docker-k8s-presentation/js/search.js?1561444075"></script>
 
     
   </div>
@@ -936,6 +936,30 @@
  
   
     
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/cleanup/" title="Connecting to Cluster" class="dd-item 
+        parent
+        active
+        
+        ">
+      <a href="/docker-k8s-presentation/kubernetes/cleanup/">
+          Connecting to Cluster
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
     <li data-nav-id="/docker-k8s-presentation/kubernetes/connect/" title="Connecting to Cluster" class="dd-item 
         
         
@@ -943,6 +967,30 @@
         ">
       <a href="/docker-k8s-presentation/kubernetes/connect/">
           Connecting to Cluster
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/docker-k8s-presentation/kubernetes/microservices/" title="Microservices exercise" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/docker-k8s-presentation/kubernetes/microservices/">
+          Microservices exercise
           
       </a>
       
@@ -1787,30 +1835,6 @@
  
   
     
-    <li data-nav-id="/docker-k8s-presentation/kubernetes/cleanup/" title="Cleanup" class="dd-item 
-        parent
-        active
-        
-        ">
-      <a href="/docker-k8s-presentation/kubernetes/cleanup/">
-          Cleanup
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
- 
-  
-    
     <li data-nav-id="/docker-k8s-presentation/kubernetes/running/" title="Running" class="dd-item 
         
         
@@ -2152,7 +2176,7 @@
             
           
           
-            <a href='/docker-k8s-presentation/'>Introduction to Kubernetes</a> > <a href='/docker-k8s-presentation/kubernetes/'>Kubernetes</a> > Cleanup
+            <a href='/docker-k8s-presentation/'>Introduction to Kubernetes</a> > <a href='/docker-k8s-presentation/kubernetes/'>Kubernetes</a> > Connecting to Cluster
           
          
           
@@ -2165,17 +2189,7 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#deleting-all-resources-used">Deleting all resources used</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</nav>
+
     </div>
 </div>
 
@@ -2187,45 +2201,13 @@
         
         <div id="body-inner">
           
-            <h1>Cleanup</h1>
+            <h1>Connecting to Cluster</h1>
           
 
         
 
 
-
-
-<h3 id="deleting-all-resources-used">Deleting all resources used</h3>
-
-<p>All in one go</p>
-
-<pre><code>kubectl delete po,svc,pv,deploy,rs,qouta,namespace,configmaps,secrets,ing,daemonsets --all 
-</code></pre>
-
-<p>Pods and Services</p>
-
-<pre><code>kubectl delete po,svc --all   
-</code></pre>
-
-<p>PersistentVolume</p>
-
-<pre><code>kubectl delete pv --all   
-</code></pre>
-
-<p>Deployments</p>
-
-<pre><code>kubectl delete deploy --all
-</code></pre>
-
-<p>Replicaset</p>
-
-<pre><code>kubectl delete rs --all
-</code></pre>
-
-<p>Resource quotas</p>
-
-<pre><code>kubectl delete quota --all
-</code></pre>
+<p><strong>Go to dir:</strong> 100-cleanup</p>
 
 
 <footer class=" footline" >
@@ -2865,6 +2847,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -2881,33 +2864,8 @@
             
                 
                     
-                
-                
-
-                    
-                    
                         
-                    
-                    
-
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -2936,9 +2894,6 @@
             
         
                     
-            
-        
-                    
                         
             
             
@@ -2949,59 +2904,10 @@
 
                     
                     
-                    
-
-                    
                         
-            
-            
-                
-                    
-                
-                
-
-                    
                     
                     
 
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
                     
                         
             
@@ -3080,19 +2986,6 @@
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
             
         
                     
@@ -3108,169 +3001,6 @@
                     
                     
 
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
                         
             
@@ -3400,6 +3130,294 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -3442,26 +3460,6 @@
             
             
                 
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
                     
                 
                 
@@ -3680,10 +3678,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/docker-k8s-presentation/kubernetes/micro/" title="Microservices Exercise"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/docker-k8s-presentation/kubernetes/arch/data/" title="Data Flow"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/docker-k8s-presentation/kubernetes/running/" title="Running" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/docker-k8s-presentation/kubernetes/connect/" title="Connecting to Cluster" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -3693,20 +3691,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/docker-k8s-presentation/js/clipboard.min.js?1561387289"></script>
-    <script src="/docker-k8s-presentation/js/perfect-scrollbar.min.js?1561387289"></script>
-    <script src="/docker-k8s-presentation/js/perfect-scrollbar.jquery.min.js?1561387289"></script>
-    <script src="/docker-k8s-presentation/js/jquery.sticky.js?1561387289"></script>
-    <script src="/docker-k8s-presentation/js/featherlight.min.js?1561387289"></script>
-    <script src="/docker-k8s-presentation/js/html5shiv-printshiv.min.js?1561387289"></script>
-    <script src="/docker-k8s-presentation/js/highlight.pack.js?1561387289"></script>
+    <script src="/docker-k8s-presentation/js/clipboard.min.js?1561444075"></script>
+    <script src="/docker-k8s-presentation/js/perfect-scrollbar.min.js?1561444075"></script>
+    <script src="/docker-k8s-presentation/js/perfect-scrollbar.jquery.min.js?1561444075"></script>
+    <script src="/docker-k8s-presentation/js/jquery.sticky.js?1561444075"></script>
+    <script src="/docker-k8s-presentation/js/featherlight.min.js?1561444075"></script>
+    <script src="/docker-k8s-presentation/js/html5shiv-printshiv.min.js?1561444075"></script>
+    <script src="/docker-k8s-presentation/js/highlight.pack.js?1561444075"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/docker-k8s-presentation/js/modernizr.custom.71422.js?1561387289"></script>
-    <script src="/docker-k8s-presentation/js/learn.js?1561387289"></script>
-    <script src="/docker-k8s-presentation/js/hugo-learn.js?1561387289"></script>
+    <script src="/docker-k8s-presentation/js/modernizr.custom.71422.js?1561444075"></script>
+    <script src="/docker-k8s-presentation/js/learn.js?1561444075"></script>
+    <script src="/docker-k8s-presentation/js/hugo-learn.js?1561444075"></script>
 
-    <link href="/docker-k8s-presentation/mermaid/mermaid.css?1561387289" type="text/css" rel="stylesheet" />
-    <script src="/docker-k8s-presentation/mermaid/mermaid.js?1561387289"></script>
+    <link href="/docker-k8s-presentation/mermaid/mermaid.css?1561444075" type="text/css" rel="stylesheet" />
+    <script src="/docker-k8s-presentation/mermaid/mermaid.js?1561444075"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

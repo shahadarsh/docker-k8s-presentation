@@ -128,7 +128,17 @@
   </url>
   
   <url>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/cleanup/</loc>
+    <lastmod>2018-12-09T17:04:27-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/connect/</loc>
+    <lastmod>2018-12-09T17:04:27-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/microservices/</loc>
     <lastmod>2018-12-09T17:04:27-05:00</lastmod>
   </url>
   
@@ -375,11 +385,6 @@
   <url>
     <loc>https://shahadarsh.github.io/docker-k8s-presentation/containers/docker/exercise/</loc>
     <lastmod>2018-12-09T17:21:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/cleanup/</loc>
-    <lastmod>2018-12-09T17:00:31-05:00</lastmod>
   </url>
   
   <url>

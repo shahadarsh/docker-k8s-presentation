@@ -175,11 +175,25 @@
 	"content": " Container Networking  Docker uses iptables to provide network isolation Explicitly publish a port for connectivity to it Containers do not have a public IPv4 address They are allocated a private address Services running on a container must be exposed port by port Container ports have to be mapped to the host port to avoid conflicts  More information here\n"
 },
 {
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/cleanup/",
+	"title": "Connecting to Cluster",
+	"tags": [],
+	"description": "",
+	"content": "Go to dir: 100-cleanup\n"
+},
+{
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/connect/",
 	"title": "Connecting to Cluster",
 	"tags": [],
 	"description": "",
 	"content": "Github repo: https://github.com/shahadarsh/docker-k8s-workshop/\nGo to: exercises/kubernetes/00-cluster-connect\n"
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/microservices/",
+	"title": "Microservices exercise",
+	"tags": [],
+	"description": "",
+	"content": "Go to dir: 08-microservices\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/network/dockernetop/",
@@ -523,13 +537,6 @@
 	"tags": [],
 	"description": "",
 	"content": " Docker Exercise Git clone Microservices Exercises\n"
-},
-{
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/cleanup/",
-	"title": "Cleanup",
-	"tags": [],
-	"description": "",
-	"content": " Deleting all resources used All in one go\nkubectl delete po,svc,pv,deploy,rs,qouta,namespace,configmaps,secrets,ing,daemonsets --all  Pods and Services\nkubectl delete po,svc --all  PersistentVolume\nkubectl delete pv --all  Deployments\nkubectl delete deploy --all  Replicaset\nkubectl delete rs --all  Resource quotas\nkubectl delete quota --all  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/running/",
