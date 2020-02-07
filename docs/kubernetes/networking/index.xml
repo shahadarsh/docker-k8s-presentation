@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networking on Introduction to Kubernetes</title>
+    <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/</link>
+    <description>Recent content in Networking on Introduction to Kubernetes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Dec 2018 17:00:54 -0500</lastBuildDate>
+    
+	<atom:link href="https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Container-to-Container</title>
+      <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/container-to-container/</link>
+      <pubDate>Sun, 09 Dec 2018 17:00:54 -0500</pubDate>
+      
+      <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/container-to-container/</guid>
+      <description>Credit: https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/#kubernetes-networking-model</description>
+    </item>
+    
+    <item>
+      <title>Internet-to-Service</title>
+      <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/internet-to-service/</link>
+      <pubDate>Sun, 09 Dec 2018 17:00:54 -0500</pubDate>
+      
+      <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/internet-to-service/</guid>
+      <description>AWS&#39;s implementation of CNI plugin: https://github.com/aws/amazon-vpc-cni-k8s
+ </description>
+    </item>
+    
+    <item>
+      <title>Pod-to-Pod</title>
+      <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/pod-to-pod/</link>
+      <pubDate>Sun, 09 Dec 2018 17:00:54 -0500</pubDate>
+      
+      <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/pod-to-pod/</guid>
+      <description>AWS&#39;s implementation of CNI plugin: https://github.com/aws/amazon-vpc-cni-k8s
+ </description>
+    </item>
+    
+    <item>
+      <title>Pod-to-Service</title>
+      <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/pod-to-service/</link>
+      <pubDate>Sun, 09 Dec 2018 17:00:54 -0500</pubDate>
+      
+      <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/pod-to-service/</guid>
+      <description>AWS&#39;s implementation of CNI plugin: https://github.com/aws/amazon-vpc-cni-k8s
+ </description>
+    </item>
+    
+    <item>
+      <title>Data Flow</title>
+      <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/cni/</link>
+      <pubDate>Sun, 09 Dec 2018 17:00:54 -0500</pubDate>
+      
+      <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/cni/</guid>
+      <description>Data Flow   CNI: Network Plugin in Kubelet that allows to talk to networking to get IPs for Pods and Services.
+  gRPC: API to communicate API Server to ETCD, Controller Manager and Scheduler
+  Kubelet - all K8s nodes have a kubelet that ensures that any pod assigned to it are running and configured in the desired state.
+  CRI(Container Runtime Interface) gRPC API compiled in kubelet which allows to kubelet to talk to container runtimes by using gRPC API.</description>
+    </item>
+    
+  </channel>
+</rss>

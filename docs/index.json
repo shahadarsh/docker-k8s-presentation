@@ -4,7 +4,7 @@
 	"title": "Introduction to Kubernetes",
 	"tags": [],
 	"description": "",
-	"content": " Introduction to Kubernetes Introduction to Kubernetes is a hands-on, interactive workshop giving attendees a thorough understanding of the fundamentals of Kubernetes. As part of this workshop, you will learn how Kubernetes works, be able to successfully create a kubernetes cluster, deploy microservices to that cluster \u0026amp; also hear about some war stories.\n"
+	"content": "Introduction to Kubernetes Introduction to Kubernetes is a hands-on, interactive workshop giving attendees a thorough understanding of the fundamentals of Kubernetes. As part of this workshop, you will learn how Kubernetes works, be able to successfully create a kubernetes cluster, deploy microservices to that cluster \u0026amp; also hear about some war stories.\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/introduction/",
@@ -25,28 +25,28 @@
 	"title": "Containers",
 	"tags": [],
 	"description": "",
-	"content": " History\n Primitives\n Network\n Storage\n Docker\n  "
+	"content": "  History\n  Primitives\n  Network\n  Storage\n  Docker\n  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/",
 	"title": "Kubernetes",
 	"tags": [],
 	"description": "",
-	"content": " History Community  CNCF Graduated Projects CNCF Incubating Projects\n Get Involved  Connect to Cluster Kubernetes Objects  Namespaces Pods Resource Quotas Controllers Storage Secrets ConfigMaps Ingress Service Healthchecks  Microservice Exercise Cleanup Options for Running Kubernetes Extras  Logging Monitoring Security   "
+	"content": " History Community  CNCF Graduated Projects CNCF Incubating Projects Get Involved   Connect to Cluster Kubernetes Objects  Namespaces Pods Resource Quotas Controllers Storage Secrets ConfigMaps Ingress Service Healthchecks   Networking Microservice Exercise Cleanup Options for Running Kubernetes Extras  Logging Monitoring Security    "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/closing/",
 	"title": "Closing",
 	"tags": [],
 	"description": "",
-	"content": " Closing remarks Contact Me:\nTwitter: @shahadarsh\nEmail: adarsh@shahadarsh.com\nWebsite: http://shahadarsh.com/)\n"
+	"content": "Closing remarks Contact Me:\nTwitter: @shahadarsh\nEmail: adarsh@shahadarsh.com\nWebsite: http://shahadarsh.com/)\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/history/",
 	"title": "History",
 	"tags": [],
 	"description": "",
-	"content": " Kubernetes History Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.\n Kubernetes is heavily influenced by Google’s Borg system Released in 2015 when Google partnered with Linux foundation to form CNCF Often called K8s which is a Numeronym K[ubernete]s → K[8]s → K8s Kubernetes - Greek for helmsman or pilot  “Kubernetes was built to radically change the way that applications are built and deployed in the cloud. Fundamentally, it was designed to give developers more velocity, efficiency, and agility”\nKelsey Hightower, Brendan Burns \u0026amp; Joe Beda -Kubernetes Up and Running Book\n"
+	"content": "Kubernetes History Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.\n  Kubernetes is heavily influenced by Google’s Borg system Released in 2015 when Google partnered with Linux foundation to form CNCF Often called K8s which is a Numeronym K[ubernete]s → K[8]s → K8s Kubernetes - Greek for helmsman or pilot   “Kubernetes was built to radically change the way that applications are built and deployed in the cloud. Fundamentally, it was designed to give developers more velocity, efficiency, and agility”\nKelsey Hightower, Brendan Burns \u0026amp; Joe Beda -Kubernetes Up and Running Book\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/introduction/whoami/",
@@ -60,56 +60,56 @@
 	"title": "Introduction",
 	"tags": [],
 	"description": "",
-	"content": " Please Introduce Yourself\u000b  Name Role \u0026amp; Company\u000b What would you like to learn today?  "
+	"content": "Please Introduce Yourself  Name Role \u0026amp; Company What would you like to learn today?  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/introduction/agenda/",
 	"title": "Agenda",
 	"tags": [],
 	"description": "",
-	"content": " Introduction  Requirements Instructors Who are you? Agenda  Containers  Intro History Primitives Docker Network Storage  Kubernetes  History Community  CNCF Graduated Projects CNCF Incubating Projects\n Get Involved  Connect to Cluster Kubernetes Objects  Namespaces Pods Resource Quotas Controllers Storage Secrets ConfigMaps Ingress Service Healthchecks Cleanup  Options for Running Kubernetes Extras  Monitoring Security    "
+	"content": " Introduction  Requirements Instructors Who are you? Agenda   Containers  Intro History Primitives Docker Network Storage   Kubernetes  History Community  CNCF Graduated Projects CNCF Incubating Projects Get Involved   Connect to Cluster Kubernetes Objects  Namespaces Pods Resource Quotas Controllers Storage Secrets ConfigMaps Ingress Service Healthchecks Cleanup   Options for Running Kubernetes Extras  Monitoring Security      "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/history/",
 	"title": "History",
 	"tags": [],
 	"description": "",
-	"content": " Container History 1. In the beginning 2. Hypervisors 3. Containers "
+	"content": "Container History 1. In the beginning 2. Hypervisors 3. Containers "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/history/history/",
 	"title": "Beginning",
 	"tags": [],
 	"description": "",
-	"content": " In the beginning "
+	"content": "In the beginning "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/history/hyper/",
 	"title": "Hypervisor",
 	"tags": [],
 	"description": "",
-	"content": " The Hypervisor "
+	"content": "The Hypervisor "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/history/containers/",
 	"title": "Containers",
 	"tags": [],
 	"description": "",
-	"content": " Containers "
+	"content": "Containers "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/history/layers/",
 	"title": "Layers",
 	"tags": [],
 	"description": "",
-	"content": " Container Layers "
+	"content": "Container Layers "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/community/",
 	"title": "Community",
 	"tags": [],
 	"description": "",
-	"content": " CNCF Landscape "
+	"content": "CNCF Landscape "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/community/projects_grad/",
@@ -130,49 +130,84 @@
 	"title": "Involvement",
 	"tags": [],
 	"description": "",
-	"content": " Sigs https://github.com/kubernetes/community/blob/master/sig-list.md\n Stackoverflow https://stackoverflow.com/questions/tagged/kubernetes\n Slack\n k8 http://slack.k8s.io/ CNCF https://slack.cncf.io/   "
+	"content": "  Sigs https://github.com/kubernetes/community/blob/master/sig-list.md\n  Stackoverflow https://stackoverflow.com/questions/tagged/kubernetes\n  Slack\n k8 http://slack.k8s.io/ CNCF https://slack.cncf.io/    "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/primitives/",
 	"title": "Primitives",
 	"tags": [],
 	"description": "",
-	"content": " Container Primitives Control Groups Abbreviated cgroups, is a Linux kernel feature that limits, accounts for, and isolates the resource usage\n CPU memory disk I/O network  Namespaces A feature of the Linux kernel that isolate and virtualize system resources of a collection of processes. Examples of resources that can be virtualized include:\n process IDs hostnames user IDs network access interprocess communication filesystems  "
+	"content": "Container Primitives Control Groups Abbreviated cgroups, is a Linux kernel feature that limits, accounts for, and isolates the resource usage\n CPU memory disk I/O network  Namespaces A feature of the Linux kernel that isolate and virtualize system resources of a collection of processes. Examples of resources that can be virtualized include:\n process IDs hostnames user IDs network access interprocess communication filesystems  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/",
 	"title": "Architecture",
 	"tags": [],
 	"description": "",
-	"content": " High level Architecture "
+	"content": "High level Architecture "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/container-to-container/",
+	"title": "Container-to-Container",
+	"tags": [],
+	"description": "",
+	"content": "Credit: https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/#kubernetes-networking-model\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/master/",
 	"title": "Master",
 	"tags": [],
 	"description": "",
-	"content": " API data store: Etcd (Cluster State)\n Controller Managers :\n Node Controller Deployment Controller ReplicaSet Controller Replication Controller Endpoints Controller Service Account \u0026amp; Token Controller   Scheduler: Bind pod to Node\n  "
+	"content": "  API data store: Etcd (Cluster State)\n  Controller Managers :\n Node Controller Deployment Controller ReplicaSet Controller Replication Controller Endpoints Controller Service Account \u0026amp; Token Controller    Scheduler: Bind pod to Node\n  "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/internet-to-service/",
+	"title": "Internet-to-Service",
+	"tags": [],
+	"description": "",
+	"content": "AWS's implementation of CNI plugin: https://github.com/aws/amazon-vpc-cni-k8s\n "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/node/",
 	"title": "Node",
 	"tags": [],
 	"description": "",
-	"content": " Kubelet:\n cAdvisor (metrics, logs\u0026hellip;)  Container Runtime:\n docker containerd  Pod:\n Container (one or more)  Kube-proxy:\n Used to reach services and allow communication between Nodes.   "
+	"content": " Kubelet:   cAdvisor (metrics, logs\u0026hellip;)  Container Runtime:   docker containerd  Pod:   Container (one or more)  Kube-proxy:   Used to reach services and allow communication between Nodes.   "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/pod-to-pod/",
+	"title": "Pod-to-Pod",
+	"tags": [],
+	"description": "",
+	"content": "AWS's implementation of CNI plugin: https://github.com/aws/amazon-vpc-cni-k8s\n "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/pod-to-service/",
+	"title": "Pod-to-Service",
+	"tags": [],
+	"description": "",
+	"content": "AWS's implementation of CNI plugin: https://github.com/aws/amazon-vpc-cni-k8s\n "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/data/",
 	"title": "Data Flow",
 	"tags": [],
 	"description": "",
-	"content": " Data Flow  CNI: Network Plugin in Kubelet that allows to talk to networking to get IPs for Pods and Services.\n gRPC: API to communicate API Server to ETCD, Controller Manager and Scheduler\n Kubelet - all K8s nodes have a kubelet that ensures that any pod assigned to it are running and configured in the desired state.\n CRI(Container Runtime Interface) gRPC API compiled in kubelet which allows to kubelet to talk to container runtimes by using gRPC API.\n The Container Runtime provider has to adapt it to CRI API to allow kubelet to talk to them by using OCI Standard (runc) Initially, Kubernetes was built on top of Docker as the container runtime. Soon after, CoreOS announced the rkt container runtime and wanted Kubernetes to support it, as well. So, Kubernetes ended up supporting Docker and rkt, although this model wasn\u0026rsquo;t very scalable in terms of adding new features or support for new container runtimes.\n CRI consists of a protocol buffers and gRPC API, and libraries,\n  "
+	"content": "Data Flow   CNI: Network Plugin in Kubelet that allows to talk to networking to get IPs for Pods and Services.\n  gRPC: API to communicate API Server to ETCD, Controller Manager and Scheduler\n  Kubelet - all K8s nodes have a kubelet that ensures that any pod assigned to it are running and configured in the desired state.\n  CRI(Container Runtime Interface) gRPC API compiled in kubelet which allows to kubelet to talk to container runtimes by using gRPC API.\n  The Container Runtime provider has to adapt it to CRI API to allow kubelet to talk to them by using OCI Standard (runc) Initially, Kubernetes was built on top of Docker as the container runtime. Soon after, CoreOS announced the rkt container runtime and wanted Kubernetes to support it, as well. So, Kubernetes ended up supporting Docker and rkt, although this model wasn't very scalable in terms of adding new features or support for new container runtimes.\n  CRI consists of a protocol buffers and gRPC API, and libraries,\n  "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/cni/",
+	"title": "Data Flow",
+	"tags": [],
+	"description": "",
+	"content": "Data Flow   CNI: Network Plugin in Kubelet that allows to talk to networking to get IPs for Pods and Services.\n  gRPC: API to communicate API Server to ETCD, Controller Manager and Scheduler\n  Kubelet - all K8s nodes have a kubelet that ensures that any pod assigned to it are running and configured in the desired state.\n  CRI(Container Runtime Interface) gRPC API compiled in kubelet which allows to kubelet to talk to container runtimes by using gRPC API.\n  The Container Runtime provider has to adapt it to CRI API to allow kubelet to talk to them by using OCI Standard (runc) Initially, Kubernetes was built on top of Docker as the container runtime. Soon after, CoreOS announced the rkt container runtime and wanted Kubernetes to support it, as well. So, Kubernetes ended up supporting Docker and rkt, although this model wasn't very scalable in terms of adding new features or support for new container runtimes.\n  CRI consists of a protocol buffers and gRPC API, and libraries,\n  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/network/",
 	"title": "Network",
 	"tags": [],
 	"description": "",
-	"content": " Container Networking  Docker uses iptables to provide network isolation Explicitly publish a port for connectivity to it Containers do not have a public IPv4 address They are allocated a private address Services running on a container must be exposed port by port Container ports have to be mapped to the host port to avoid conflicts  More information here\n"
+	"content": "Container Networking  Docker uses iptables to provide network isolation Explicitly publish a port for connectivity to it Containers do not have a public IPv4 address They are allocated a private address Services running on a container must be exposed port by port Container ports have to be mapped to the host port to avoid conflicts  More information here\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/cleanup/",
@@ -200,77 +235,77 @@
 	"title": "Docker Network options",
 	"tags": [],
 	"description": "",
-	"content": " Docker Networking options    Flag value Description     -p 8080:80 Map TCP port 80 in the container to port 8080 on the Docker host.   -p 192.168.1.100:8080:80 Map TCP port 80 in the container to port 8080 on the Docker host for connections to host IP 192.168.1.100.   -p 8080:80/udp Map UDP port 80 in the container to port 8080 on the Docker host.   -p 8080:80/tcp -p 8080:80/udp Map TCP port 80 in the container to TCP port 8080 on the Docker host, and map UDP port 80 in the container to UDP port 8080 on the Docker host.    "
+	"content": "Docker Networking options    Flag value Description     -p 8080:80 Map TCP port 80 in the container to port 8080 on the Docker host.   -p 192.168.1.100:8080:80 Map TCP port 80 in the container to port 8080 on the Docker host for connections to host IP 192.168.1.100.   -p 8080:80/udp Map UDP port 80 in the container to port 8080 on the Docker host.   -p 8080:80/tcp -p 8080:80/udp Map TCP port 80 in the container to TCP port 8080 on the Docker host, and map UDP port 80 in the container to UDP port 8080 on the Docker host.    "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/network/docker0/",
 	"title": "Docker0 ",
 	"tags": [],
 	"description": "",
-	"content": " Container Networking  When Docker starts, it creates a virtual interface called docker0 on the host machine docker0 is assigned a random IP address and subnet from the private range defined by RFC 1918 It passes or switches packets between two connected devices just like a physical bridge or switch  Host to container Container to container  Each new container gets one interface that is automatically attached to the docker0 bridge  "
+	"content": "Container Networking  When Docker starts, it creates a virtual interface called docker0 on the host machine docker0 is assigned a random IP address and subnet from the private range defined by RFC 1918 It passes or switches packets between two connected devices just like a physical bridge or switch  Host to container Container to container   Each new container gets one interface that is automatically attached to the docker0 bridge  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/network/docker0-dig/",
 	"title": "Docker0 Diagram",
 	"tags": [],
 	"description": "",
-	"content": " Container Networking "
+	"content": "Container Networking "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/storage/",
 	"title": "Storage",
 	"tags": [],
 	"description": "",
-	"content": " Storage Layers Volumes Benefits of Volumes Docker Volume command "
+	"content": "Storage Layers Volumes Benefits of Volumes Docker Volume command "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/",
 	"title": "Objects",
 	"tags": [],
 	"description": "",
-	"content": " Kubernetes API Objects  Pods Resource Quotas Namespaces Controllers Storage Secrets ConfigMaps Ingress Service Healthchecks  "
+	"content": "Kubernetes API Objects  Pods Resource Quotas Namespaces Controllers Storage Secrets ConfigMaps Ingress Service Healthchecks  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/storage/layers/",
 	"title": "Layers",
 	"tags": [],
 	"description": "",
-	"content": " Layers "
+	"content": "Layers "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/storage/volumes/",
 	"title": "Volumes",
 	"tags": [],
 	"description": "",
-	"content": " Volumes "
+	"content": "Volumes "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/storage/benefits/",
 	"title": "Storage",
 	"tags": [],
 	"description": "",
-	"content": " Benefits of Volumes  De-couple the data that is stored, from the container which created the data Good for sharing data between containers Can setup a data containers which has a volume you mount in other containers Share directories between multiple containers Bypassing the copy on write system to achieve native disk I/O performance Share a host directory with a container Share a single file between the host and container  "
+	"content": "Benefits of Volumes  De-couple the data that is stored, from the container which created the data Good for sharing data between containers Can setup a data containers which has a volume you mount in other containers Share directories between multiple containers Bypassing the copy on write system to achieve native disk I/O performance Share a host directory with a container Share a single file between the host and container  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/storage/commands/",
 	"title": "Volume CLI",
 	"tags": [],
 	"description": "",
-	"content": " Docker Volume command The docker volume command contains a number of sub commands used to create and manage volumes Commands are\n docker volume create docker volume ls docker volume inspect docker volume rm  "
+	"content": "Docker Volume command The docker volume command contains a number of sub commands used to create and manage volumes Commands are\n docker volume create docker volume ls docker volume inspect docker volume rm  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/pods/",
 	"title": "Pods",
 	"tags": [],
 	"description": "",
-	"content": " Pods Pods are a collection of containers that share a namespace, are colocated and scheduled together on Kubenetes nodes.\nA pod is a group of one or more containers, with shared storage/network, and a specification for how to run the containers\n"
+	"content": "Pods Pods are a collection of containers that share a namespace, are colocated and scheduled together on Kubenetes nodes.\nA pod is a group of one or more containers, with shared storage/network, and a specification for how to run the containers\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/resourcequotas/",
 	"title": "Resource Quotas",
 	"tags": [],
 	"description": "",
-	"content": " What Requests - How much does this pod need to run\nLimits - This pod only gets this much to run\nWhy Kubernetes being a multi-tenant environment, some applications may hog resources and starve others, Resource Quotas discourage this behavior\n "
+	"content": "What Requests - How much does this pod need to run\nLimits - This pod only gets this much to run\nWhy Kubernetes being a multi-tenant environment, some applications may hog resources and starve others, Resource Quotas discourage this behavior\n "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/pods/exercises/",
@@ -284,21 +319,21 @@
 	"title": "Resource Quotas",
 	"tags": [],
 	"description": "",
-	"content": " Compute Resources  CPU Memory Storage  requests.storage persistentvolumeclaims storage-class-name.storageclass.storage.k8s.io/requests.storage storage-class-name.storageclass.storage.k8s.io/persistentvolumeclaims  Object Count\n configmaps persistentvolumeclaims pods replicationcontrollers resourcequotas services services.loadbalancers services.nodeports secrets  Priority - low, medium, high\n  More info\n"
+	"content": "Compute Resources   CPU\n  Memory\n  Storage\n requests.storage persistentvolumeclaims storage-class-name.storageclass.storage.k8s.io/requests.storage storage-class-name.storageclass.storage.k8s.io/persistentvolumeclaims    Object Count\n configmaps persistentvolumeclaims pods replicationcontrollers resourcequotas services services.loadbalancers services.nodeports secrets    Priority - low, medium, high\n  More info\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/pods/labels_selectors/",
 	"title": "Labels and Selectors",
 	"tags": [],
 	"description": "",
-	"content": " Labels Labels are key/value pairs that are attached to objects, such as pods that help to identify that object.\nSelectors Label Selectors help client/user identify a set of objects.\nspec: selector: matchLabels: app: mysql strategy: type: Recreate template: metadata: labels: app: mysql  Demo Create labels \u0026amp; use selector to identify set of objects\n"
+	"content": "Labels Labels are key/value pairs that are attached to objects, such as pods that help to identify that object.\nSelectors Label Selectors help client/user identify a set of objects.\nspec: selector: matchLabels: app: mysql strategy: type: Recreate template: metadata: labels: app: mysql Demo Create labels \u0026amp; use selector to identify set of objects\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/namespaces/",
 	"title": "Namespaces",
 	"tags": [],
 	"description": "",
-	"content": " Namespaces What Namespaces are virtual clusters inside your Kubernetes cluster that provide logically isolation (kinda) from each other.\nWhy Scope of names Organization of Kubernetes resources\n "
+	"content": "Namespaces What Namespaces are virtual clusters inside your Kubernetes cluster that provide logically isolation (kinda) from each other.\nWhy Scope of names Organization of Kubernetes resources\n "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/namespaces/exercises/",
@@ -312,14 +347,14 @@
 	"title": "Controllers",
 	"tags": [],
 	"description": "",
-	"content": " Controllers In Kubernetes, a controller is a control loop that watches the shared state of the cluster through the apiserver and makes changes attempting to move the current state towards the desired state. There are several in the Kubernetes Architecture that support different functions in the system.\nNamespace controller - Creates and updates the Namespaces in kubernetes\nServiceaccounts controller - Manages the service accounts in the system, which are for processes to interact with Kubernetes.\nNode Controller - Responsible for noticing and responding when nodes go down. Service Account \u0026amp; Token Controllers: Create default accounts and API access tokens for new namespaces.\nDeployment Controller - A Deployment controller provides declarative updates for Pods and ReplicaSets.\nReplication Controller - Responsible for maintaining the correct number of pods for every replication controller object in the system.\nEndpoints Controller - Populates the Endpoints object (that is, joins Services \u0026amp; Pods). When services are created, the Endpoint controller manages the connection between services and the pods back the service.\n"
+	"content": "Controllers In Kubernetes, a controller is a control loop that watches the shared state of the cluster through the apiserver and makes changes attempting to move the current state towards the desired state. There are several in the Kubernetes Architecture that support different functions in the system.\nNamespace controller - Creates and updates the Namespaces in kubernetes\nServiceaccounts controller - Manages the service accounts in the system, which are for processes to interact with Kubernetes.\nNode Controller - Responsible for noticing and responding when nodes go down. Service Account \u0026amp; Token Controllers: Create default accounts and API access tokens for new namespaces.\nDeployment Controller - A Deployment controller provides declarative updates for Pods and ReplicaSets.\nReplication Controller - Responsible for maintaining the correct number of pods for every replication controller object in the system.\nEndpoints Controller - Populates the Endpoints object (that is, joins Services \u0026amp; Pods). When services are created, the Endpoint controller manages the connection between services and the pods back the service.\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/controllers/updates/",
 	"title": "Controllers Updates",
 	"tags": [],
 	"description": "",
-	"content": " Deployments  Scaling Rolling\u000b  ReplicaSet  Desired state  Strategies:  Recreate RollingUpdate (default) Blue/Green Canary A/B Testing  "
+	"content": "Deployments  Scaling Rolling  ReplicaSet  Desired state  Strategies:  Recreate RollingUpdate (default) Blue/Green Canary A/B Testing  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/controllers/exercises/",
@@ -333,35 +368,35 @@
 	"title": "Storage",
 	"tags": [],
 	"description": "",
-	"content": " What Storage like compute is another resource that must be managed. Kubernetes offers 3 types of storage\n Volumes Persistent Volumes Persistent Volume Claims  Why The Ephemeral nature of pods and containers lead to the need for data to be have a decoupled lifecycle outside of containers and pods.\n "
+	"content": "What Storage like compute is another resource that must be managed. Kubernetes offers 3 types of storage\n Volumes Persistent Volumes Persistent Volume Claims  Why The Ephemeral nature of pods and containers lead to the need for data to be have a decoupled lifecycle outside of containers and pods.\n "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/storage/volumes/",
 	"title": "Volumes",
 	"tags": [],
 	"description": "",
-	"content": "Several volume types are supported\n awsElasticBlockStore azureDisk gcePersistentDisk hostPath secret configmaps  awsElasticBlockStore example yaml:\napiVersion: v1 kind: Pod metadata: name: test-ebs spec: containers: - image: k8s.gcr.io/test-webserver name: test-container volumeMounts: - mountPath: /test-ebs name: test-volume volumes: - name: test-volume # This AWS EBS volume must already exist. awsElasticBlockStore: volumeID: \u0026lt;volume-id\u0026gt; fsType: ext4  "
+	"content": "Several volume types are supported\n awsElasticBlockStore azureDisk gcePersistentDisk hostPath secret configmaps  awsElasticBlockStore example yaml:\napiVersion: v1 kind: Pod metadata: name: test-ebs spec: containers: - image: k8s.gcr.io/test-webserver name: test-container volumeMounts: - mountPath: /test-ebs name: test-volume volumes: - name: test-volume # This AWS EBS volume must already exist. awsElasticBlockStore: volumeID: \u0026lt;volume-id\u0026gt; fsType: ext4 "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/storage/pv/",
 	"title": "Persistent Volume",
 	"tags": [],
 	"description": "",
-	"content": "Persistent Volumes (PV\u0026rsquo;s) are a piece of storage provisioned in a cluster and can be used/reference in the cluster like another other resource.\nProvisioning - Static or Dynamic\nTypes of PV\u0026rsquo;s\n GCEPersistentDisk AWSElasticBlockStore AzureFile CephFS  kind: PersistentVolume apiVersion: v1 metadata: name: task-pv-volume labels: type: local spec: storageClassName: manual capacity: storage: 10Gi accessModes: - ReadWriteOnce hostPath: path: \u0026quot;/mnt/data\u0026quot;  "
+	"content": "Persistent Volumes (PV's) are a piece of storage provisioned in a cluster and can be used/reference in the cluster like another other resource.\nProvisioning - Static or Dynamic\nTypes of PV's\n GCEPersistentDisk AWSElasticBlockStore AzureFile CephFS  kind: PersistentVolume apiVersion: v1 metadata: name: task-pv-volume labels: type: local spec: storageClassName: manual capacity: storage: 10Gi accessModes: - ReadWriteOnce hostPath: path: \u0026#34;/mnt/data\u0026#34; "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/storage/pvc/",
 	"title": "Persistent Volume Claims",
 	"tags": [],
 	"description": "",
-	"content": "Persistent Volume Claims (PVC\u0026rsquo;s) - Allow pods to requests and attache Persistent Volumes available in the cluster.\nWhen used in with Dynamic provision and Storage Classes, PVC\u0026rsquo;s can automatically make storage available on demand.\nTypes of PVC\u0026rsquo;s\n GCEPersistentDisk AWSElasticBlockStore AzureFile CephFS  kind: Pod apiVersion: v1 metadata: name: mypod spec: containers: - name: myfrontend image: nginx volumeMounts: - mountPath: \u0026quot;/var/www/html\u0026quot; name: mypd volumes: - name: mypd persistentVolumeClaim: claimName: myclaim  "
+	"content": "Persistent Volume Claims (PVC's) - Allow pods to requests and attache Persistent Volumes available in the cluster.\nWhen used in with Dynamic provision and Storage Classes, PVC's can automatically make storage available on demand.\nTypes of PVC's\n GCEPersistentDisk AWSElasticBlockStore AzureFile CephFS  kind: Pod apiVersion: v1 metadata: name: mypod spec: containers: - name: myfrontend image: nginx volumeMounts: - mountPath: \u0026#34;/var/www/html\u0026#34; name: mypd volumes: - name: mypd persistentVolumeClaim: claimName: myclaim "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/storage/classes/",
 	"title": "Storage Classes",
 	"tags": [],
 	"description": "",
-	"content": "Storage classes allow cluster administrators to provide varing levels of support and types of storage to applications in a cluster\nExample: Storage class that will provision an AWS EBS Volumes when referenced a PVC\nkind: StorageClass apiVersion: storage.k8s.io/v1 metadata: name: standard provisioner: kubernetes.io/aws-ebs parameters: type: gp2 reclaimPolicy: Retain mountOptions: - debug volumeBindingMode: Immediate  "
+	"content": "Storage classes allow cluster administrators to provide varing levels of support and types of storage to applications in a cluster\nExample: Storage class that will provision an AWS EBS Volumes when referenced a PVC\nkind: StorageClass apiVersion: storage.k8s.io/v1 metadata: name: standard provisioner: kubernetes.io/aws-ebs parameters: type: gp2 reclaimPolicy: Retain mountOptions: - debug volumeBindingMode: Immediate "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/storage/exercises/",
@@ -375,35 +410,35 @@
 	"title": "Secrets",
 	"tags": [],
 	"description": "",
-	"content": " What Kubernetes object to inject sensitive data into containers\nWhy Sensitive data should never be built into the container image, in order to do that, kubernetes offers Secrets.\n "
+	"content": "What Kubernetes object to inject sensitive data into containers\nWhy Sensitive data should never be built into the container image, in order to do that, kubernetes offers Secrets.\n "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/secrets/secret/",
 	"title": "Secrets Uses - Secret",
 	"tags": [],
 	"description": "",
-	"content": "echo -n 'admin' | base64 YWRtaW4= echo -n '1f2d1e2e67df' | base64 MWYyZDFlMmU2N2Rm  Write a Secret that looks like this:\napiVersion: v1 kind: Secret metadata: name: mysecret type: Opaque data: username: YWRtaW4= password: MWYyZDFlMmU2N2Rm  "
+	"content": "echo -n \u0026#39;admin\u0026#39; | base64 YWRtaW4= echo -n \u0026#39;1f2d1e2e67df\u0026#39; | base64 MWYyZDFlMmU2N2Rm Write a Secret that looks like this:\napiVersion: v1 kind: Secret metadata: name: mysecret type: Opaque data: username: YWRtaW4= password: MWYyZDFlMmU2N2Rm "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/secrets/file/",
 	"title": "Secrets Uses - File",
 	"tags": [],
 	"description": "",
-	"content": "apiVersion: v1 kind: Pod metadata: name: mypod spec: containers: - name: mypod image: redis volumeMounts: - name: foo mountPath: \u0026quot;/etc/foo\u0026quot; readOnly: true volumes: - name: foo secret: secretName: mysecret  "
+	"content": "apiVersion: v1 kind: Pod metadata: name: mypod spec: containers: - name: mypod image: redis volumeMounts: - name: foo mountPath: \u0026#34;/etc/foo\u0026#34; readOnly: true volumes: - name: foo secret: secretName: mysecret "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/secrets/env/",
 	"title": "Secrets Uses - Env Var",
 	"tags": [],
 	"description": "",
-	"content": "apiVersion: v1 kind: Pod metadata: name: secret-env-pod spec: containers: - name: mycontainer image: redis env: - name: SECRET_USERNAME valueFrom: secretKeyRef: name: mysecret key: username - name: SECRET_PASSWORD valueFrom: secretKeyRef: name: mysecret key: password restartPolicy: Never  "
+	"content": "apiVersion: v1 kind: Pod metadata: name: secret-env-pod spec: containers: - name: mycontainer image: redis env: - name: SECRET_USERNAME valueFrom: secretKeyRef: name: mysecret key: username - name: SECRET_PASSWORD valueFrom: secretKeyRef: name: mysecret key: password restartPolicy: Never "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/configmaps/",
 	"title": "Configmaps",
 	"tags": [],
 	"description": "",
-	"content": " What In order to keep the immutablity of a docker image, the configuration must live outside the container image, K8 config maps enable this.\nWhy Secrets, env variables, and other environment specific items should not be baked into a container image.\n "
+	"content": "What In order to keep the immutablity of a docker image, the configuration must live outside the container image, K8 config maps enable this.\nWhy Secrets, env variables, and other environment specific items should not be baked into a container image.\n "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/configmaps/configmap/",
@@ -438,14 +473,14 @@
 	"title": "Services",
 	"tags": [],
 	"description": "",
-	"content": " What Service: a named abstraction of software service, consisting of a port that the proxy listens on, and the selector that determines which pods will answer requests.\nWhy Pods come and go, and with that their IP address change rapidly. Services decouple the IP address from the application and serve as the IP address inside the cluster for an application running multiple pods.\nMore info here\n "
+	"content": "What Service: a named abstraction of software service, consisting of a port that the proxy listens on, and the selector that determines which pods will answer requests.\nWhy Pods come and go, and with that their IP address change rapidly. Services decouple the IP address from the application and serve as the IP address inside the cluster for an application running multiple pods.\nMore info here\n "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/services/diag/",
 	"title": "Service Diagram",
 	"tags": [],
 	"description": "",
-	"content": "  "
+	"content": " "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/services/exercises/",
@@ -459,28 +494,28 @@
 	"title": "Healthchecks",
 	"tags": [],
 	"description": "",
-	"content": " What Healthchecks inform that kubelet that pods are ready to accept traffic\nWhy The distributed nature of kubernetes allows pods to come and go for a number of reasons, and if many are running a application the kubelet needs to know what a \u0026ldquo;healthy\u0026rdquo; pod looks like.\n"
+	"content": "What Healthchecks inform that kubelet that pods are ready to accept traffic\nWhy The distributed nature of kubernetes allows pods to come and go for a number of reasons, and if many are running a application the kubelet needs to know what a \u0026ldquo;healthy\u0026rdquo; pod looks like.\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/daemonsets/",
 	"title": "Daemonsets",
 	"tags": [],
 	"description": "",
-	"content": " Daemonsets What Specialized deployments that will deploy pods on every node in the cluster\nWhy  running a cluster storage daemon, such as glusterd, ceph, on each node. running a logs collection daemon on every node, such as fluentd or logstash. running a node monitoring daemon on every node,  Prometheus Node Exporter collectd Dynatrace OneAgent AppDynamics Agent Datadog agent     "
+	"content": "Daemonsets What Specialized deployments that will deploy pods on every node in the cluster\nWhy  running a cluster storage daemon, such as glusterd, ceph, on each node. running a logs collection daemon on every node, such as fluentd or logstash. running a node monitoring daemon on every node,  Prometheus Node Exporter collectd Dynatrace OneAgent AppDynamics Agent Datadog agent     "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/healthchecks/liveliness/",
 	"title": "Liveliness",
 	"tags": [],
 	"description": "",
-	"content": " Readiness and Liveliness Liveliness Liveliness checks inform the kubelet that the pod is running. If this check fails the kubelet will attempt to restart the pod.\napiVersion: v1 kind: Pod metadata: labels: test: liveness name: liveness-exec spec: containers: - name: liveness image: k8s.gcr.io/busybox args: - /bin/sh - -c - touch /tmp/healthy; sleep 30; rm -rf /tmp/healthy; sleep 600 livenessProbe: exec: command: - cat - /tmp/healthy initialDelaySeconds: 5 periodSeconds: 5  "
+	"content": "Readiness and Liveliness Liveliness Liveliness checks inform the kubelet that the pod is running. If this check fails the kubelet will attempt to restart the pod.\napiVersion: v1 kind: Pod metadata: labels: test: liveness name: liveness-exec spec: containers: - name: liveness image: k8s.gcr.io/busybox args: - /bin/sh - -c - touch /tmp/healthy; sleep 30; rm -rf /tmp/healthy; sleep 600 livenessProbe: exec: command: - cat - /tmp/healthy initialDelaySeconds: 5 periodSeconds: 5 "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/healthchecks/readiness/",
 	"title": "Readiness",
 	"tags": [],
 	"description": "",
-	"content": " Readiness and Liveliness Readiness Readiness checks let the kubelet know that the pod is ready to receive traffic. For example if this check fails the Service or Load balancer does not send traffic to that pod.\nreadinessProbe: exec: command: - cat - /tmp/healthy initialDelaySeconds: 5 periodSeconds: 5  "
+	"content": "Readiness and Liveliness Readiness Readiness checks let the kubelet know that the pod is ready to receive traffic. For example if this check fails the Service or Load balancer does not send traffic to that pod.\nreadinessProbe: exec: command: - cat - /tmp/healthy initialDelaySeconds: 5 periodSeconds: 5 "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/objects/healthchecks/exercises/",
@@ -494,14 +529,21 @@
 	"title": "Docker Intro",
 	"tags": [],
 	"description": "",
-	"content": " Docker Benefits Platform Dockerfile Docker cli Docker Exercise "
+	"content": "Docker Benefits Platform Dockerfile Docker cli Docker Exercise "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/",
+	"title": "Networking",
+	"tags": [],
+	"description": "",
+	"content": "Networking Highly-coupled container-to-container communications Pod-to-Pod communications Pod-to-Service communications External-to-Service communications 1. NodePort(Not recommended) It opens a specific port on all the Cluster Nodes, and any traffic that is sent to this port is forwarded to the service.\n2. LoadBalancer A Kubernetes LoadBalancer service points to external load balancers that are NOT in the Kubernetes cluster, but exist elsewhere. For AWS, it uses ELB and GKE it uses Network Load Balancer.\nDownside of this is that each service you expose with a LoadBalancer will get its own IP address, and you have to pay for a LoadBalancer per exposed service, which can get expensive!\n3. Ingress Ingress is NOT a type of service. Instead, it sits in front of multiple services and act as a \u0026ldquo;smart router\u0026rdquo; or entrypoint into your cluster.\n4. Api Gateway Everything that you get from Ingress plus below points:\n Authentication \u0026amp; Authorization for users / 3rd-party systems Enforce SLAs for different users / 3rd-party systems Data transformation / translation API lifecycle management Rate limiting Billing Other customized requirements ….  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/docker/benefits/",
 	"title": "Benefits of Docker",
 	"tags": [],
 	"description": "",
-	"content": " Docker Benefits  Separation of concerns Developers focus on building their apps System admins focus on deployment Fast development cycle Application portability Build in one environment, ship to another Scalability Easily spin up new containers if needed Run more apps on one host machine  "
+	"content": "Docker Benefits  Separation of concerns Developers focus on building their apps System admins focus on deployment Fast development cycle Application portability Build in one environment, ship to another Scalability Easily spin up new containers if needed Run more apps on one host machine  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/docker/platform/",
@@ -515,28 +557,28 @@
 	"title": "Dockerfile",
 	"tags": [],
 	"description": "",
-	"content": " Dockerfile  Instructions specify what to do when building the image FROM instruction specifies what the base image should be RUN instruction specifies a command to execute Comments start with “#” Remember, each line in a Dockerfile creates a new layer if it changes the state of the image You need to find the right balance between having lots of layers created for the image and readability of the Dockerfile Don’t install unnecessary packages One ENTRYPOINT per Dockerfile Combine similar commands into one by using “\u0026amp;\u0026amp;” and “\\”\n Use the caching system to your advantage The order of statements is important Add files that are least likely to change first and the ones most likely to change last  "
+	"content": "Dockerfile  Instructions specify what to do when building the image FROM instruction specifies what the base image should be RUN instruction specifies a command to execute Comments start with “#” Remember, each line in a Dockerfile creates a new layer if it changes the state of the image You need to find the right balance between having lots of layers created for the image and readability of the Dockerfile Don’t install unnecessary packages One ENTRYPOINT per Dockerfile Combine similar commands into one by using “\u0026amp;\u0026amp;” and “\\” Use the caching system to your advantage The order of statements is important Add files that are least likely to change first and the ones most likely to change last  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/docker/cli/",
 	"title": "CLI",
 	"tags": [],
 	"description": "",
-	"content": " Docker Docker cli  docker ps docker images docker logs docker exec  Official Documentation\n"
+	"content": "Docker Docker cli  docker ps docker images docker logs docker exec  Official Documentation\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/docker/exercise/",
 	"title": "Docker Exercise",
 	"tags": [],
 	"description": "",
-	"content": " Docker Exercise Git clone Microservices Exercises\n"
+	"content": "Docker Exercise Git clone Microservices Exercises\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/running/",
 	"title": "Running",
 	"tags": [],
 	"description": "",
-	"content": " Options for Running Kubernetes  GKP EKS AKS On prem  "
+	"content": "Options for Running Kubernetes  GKP EKS AKS On prem  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/",
@@ -550,7 +592,7 @@
 	"title": "Monitoring",
 	"tags": [],
 	"description": "",
-	"content": " cAdvisor\n Prometheus\n Datadog\n  "
+	"content": "  cAdvisor\n  Prometheus\n  Datadog\n  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/logging/",
@@ -564,7 +606,7 @@
 	"title": "Logging - Pod",
 	"tags": [],
 	"description": "",
-	"content": " Logging  kubectl logs  apiVersion: v1 kind: Pod metadata: name: counter spec: containers: - name: count image: busybox args: [/bin/sh, -c, 'i=0; while true; do echo \u0026quot;$i: $(date)\u0026quot;; i=$((i+1)); sleep 1; done']  $ kubectl logs counter 0: Mon Jan 1 00:00:00 UTC 2001 1: Mon Jan 1 00:00:01 UTC 2001 2: Mon Jan 1 00:00:02 UTC 2001  "
+	"content": "Logging  kubectl logs  apiVersion: v1 kind: Pod metadata: name: counter spec: containers: - name: count image: busybox args: [/bin/sh, -c, \u0026#39;i=0; while true; do echo \u0026#34;$i: $(date)\u0026#34;; i=$((i+1)); sleep 1; done\u0026#39;] $ kubectl logs counter 0: Mon Jan 1 00:00:00 UTC 2001 1: Mon Jan 1 00:00:01 UTC 2001 2: Mon Jan 1 00:00:02 UTC 2001 "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/logging-node/",
@@ -585,35 +627,35 @@
 	"title": "Security - Containers",
 	"tags": [],
 	"description": "",
-	"content": " Container security primitives  SElinux AppArmor Seccomp https://docs.docker.com/engine/security/seccomp/#run-without-the-default-seccomp-profile  Container Pipeline  Establish a pipeline to build a standard image Have a versioning policy Allow to only run images based of the standard image Use the same OS as the host Keep the image small Use a private registry Don’t embed secrets into images, use Hashicorp Vault https://www.cisecurity.org/benchmark/docker/ https://github.com/docker/docker-bench-security  "
+	"content": "Container security primitives  SElinux AppArmor Seccomp https://docs.docker.com/engine/security/seccomp/#run-without-the-default-seccomp-profile  Container Pipeline  Establish a pipeline to build a standard image Have a versioning policy Allow to only run images based of the standard image Use the same OS as the host Keep the image small Use a private registry Don’t embed secrets into images, use Hashicorp Vault https://www.cisecurity.org/benchmark/docker/ https://github.com/docker/docker-bench-security  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/security1/",
 	"title": "Security - K8",
 	"tags": [],
 	"description": "",
-	"content": " K8 Security  RBAC NetworkPolicy TLS Image Scanning Aquasec/Twistlock Integrating with HashiCorp Vault other public cloud secret stores Investigate using a container based OS (CoreOS, Atomic Linux) Harden and tweak Make sure to pass https://github.com/dev-sec/linux-baseline  Vendors to add  Aquasec https://www.aquasec.com/ Twistlock https://www.twistlock.com/ Sysdig Falco https://www.sysdig.org/falco/  "
-},
-{
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/ingress/controller/",
-	"title": "Ingress Controllers",
-	"tags": [],
-	"description": "",
-	"content": " Ingress controllers In order for the ingress resource to work, the cluster must have an ingress controller running. This is unlike other types of controllers, which run as part of the kube-controller-manager binary, and are typically started automatically with a cluster. Choose the ingress controller implementation that best fits your cluster.\nIngress Controller\napiVersion: extensions/v1beta1 kind: Ingress metadata: name: test-ingress spec: backend: serviceName: testsvc servicePort: 80  Kubernetes supported Ingress Controllers:\n GCE nginx  Others that can be deployed:\n HAProxy Kong Contour  Full list is here\n"
-},
-{
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/ingress/rules/",
-	"title": "Ingress Rules",
-	"tags": [],
-	"description": "",
-	"content": "Each http rule contains the following information:\n Host list of paths Backend service  Ingress Rule\napiVersion: extensions/v1beta1 kind: Ingress metadata: name: simple-fanout-example annotations: nginx.ingress.kubernetes.io/rewrite-target: / spec: rules: - host: foo.bar.com http: paths: - path: /foo backend: serviceName: service1 servicePort: 4200 - path: /bar backend: serviceName: service2 servicePort: 8080  "
+	"content": "K8 Security  RBAC NetworkPolicy TLS Image Scanning Aquasec/Twistlock Integrating with HashiCorp Vault other public cloud secret stores Investigate using a container based OS (CoreOS, Atomic Linux) Harden and tweak Make sure to pass https://github.com/dev-sec/linux-baseline  Vendors to add  Aquasec https://www.aquasec.com/ Twistlock https://www.twistlock.com/ Sysdig Falco https://www.sysdig.org/falco/  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/ingress/",
 	"title": "ingress",
 	"tags": [],
 	"description": "",
-	"content": " What Ingress is a K8 object that allows external access to resources inside the cluster\nWhy Services, Pods and other objects are only accessible inside the cluster\n "
+	"content": "What Ingress is a K8 object that allows external access to resources inside the cluster\nWhy Services, Pods and other objects are only accessible inside the cluster\n "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/ingress/controller/",
+	"title": "Ingress Controllers",
+	"tags": [],
+	"description": "",
+	"content": "Ingress controllers In order for the ingress resource to work, the cluster must have an ingress controller running. This is unlike other types of controllers, which run as part of the kube-controller-manager binary, and are typically started automatically with a cluster. Choose the ingress controller implementation that best fits your cluster.\nIngress Controller\napiVersion: extensions/v1beta1 kind: Ingress metadata: name: test-ingress spec: backend: serviceName: testsvc servicePort: 80 Kubernetes supported Ingress Controllers:\n GCE nginx  Others that can be deployed:\n HAProxy Kong Contour  Full list is here\n"
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/ingress/rules/",
+	"title": "Ingress Rules",
+	"tags": [],
+	"description": "",
+	"content": "Each http rule contains the following information:\n Host list of paths Backend service  Ingress Rule\napiVersion: extensions/v1beta1 kind: Ingress metadata: name: simple-fanout-example annotations: nginx.ingress.kubernetes.io/rewrite-target: / spec: rules: - host: foo.bar.com http: paths: - path: /foo backend: serviceName: service1 servicePort: 4200 - path: /bar backend: serviceName: service2 servicePort: 8080 "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/categories/",
