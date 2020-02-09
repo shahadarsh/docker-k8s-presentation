@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/docker-k8s-presentation/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/docker-k8s-presentation/images/favicon.png" type="image/x-icon" />
 
-    <title>Data Flow :: Introduction to Kubernetes</title>
+    <title>Prerequisites :: Introduction to Kubernetes</title>
 
     
     <link href="/docker-k8s-presentation/css/nucleus.css?1581236760" rel="stylesheet">
@@ -36,7 +36,7 @@
     
 
   </head>
-  <body class="" data-url="/docker-k8s-presentation/kubernetes/networking/cni/">
+  <body class="" data-url="/docker-k8s-presentation/introduction/prerequisites/">
     <nav id="sidebar" class="">
 
 
@@ -80,7 +80,7 @@ Website: <a href="http://shahadarsh.com">http://shahadarsh.com</a>
   
     
     <li data-nav-id="/docker-k8s-presentation/introduction/" title="Introduction" class="dd-item 
-        
+        parent
         
         
         ">
@@ -107,8 +107,8 @@ Website: <a href="http://shahadarsh.com">http://shahadarsh.com</a>
   
     
     <li data-nav-id="/docker-k8s-presentation/introduction/prerequisites/" title="Prerequisites" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/docker-k8s-presentation/introduction/prerequisites/">
@@ -708,7 +708,7 @@ Website: <a href="http://shahadarsh.com">http://shahadarsh.com</a>
   
     
     <li data-nav-id="/docker-k8s-presentation/kubernetes/" title="Kubernetes" class="dd-item 
-        parent
+        
         
         
         ">
@@ -1816,7 +1816,7 @@ Website: <a href="http://shahadarsh.com">http://shahadarsh.com</a>
   
     
     <li data-nav-id="/docker-k8s-presentation/kubernetes/networking/" title="Networking" class="dd-item 
-        parent
+        
         
         
         ">
@@ -1916,7 +1916,7 @@ Website: <a href="http://shahadarsh.com">http://shahadarsh.com</a>
  
   
     
-      <li data-nav-id="/docker-k8s-presentation/kubernetes/networking/cni/" title="Data Flow" class="dd-item active">
+      <li data-nav-id="/docker-k8s-presentation/kubernetes/networking/cni/" title="Data Flow" class="dd-item ">
         <a href="/docker-k8s-presentation/kubernetes/networking/cni/">
         Data Flow
         
@@ -2282,13 +2282,7 @@ Website: <a href="http://shahadarsh.com">http://shahadarsh.com</a>
             
           
           
-            
-            
-          
-          
-            <a href='/docker-k8s-presentation/'>Introduction to Kubernetes</a> > <a href='/docker-k8s-presentation/kubernetes/'>Kubernetes</a> > <a href='/docker-k8s-presentation/kubernetes/networking/'>Networking</a> > Data Flow
-          
-         
+            <a href='/docker-k8s-presentation/'>Introduction to Kubernetes</a> > <a href='/docker-k8s-presentation/introduction/'>Introduction</a> > Prerequisites
           
          
           
@@ -2301,11 +2295,7 @@ Website: <a href="http://shahadarsh.com">http://shahadarsh.com</a>
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#data-flow">Data Flow</a></li>
-  </ul>
-</nav>
+<nav id="TableOfContents"></nav>
     </div>
 </div>
 
@@ -2317,41 +2307,20 @@ Website: <a href="http://shahadarsh.com">http://shahadarsh.com</a>
         
         <div id="body-inner">
           
-            <h1>Data Flow</h1>
+            <h1>Prerequisites</h1>
           
 
         
 
 
-<h2 id="data-flow">Data Flow</h2>
-<p><img src="/docker-k8s-presentation/images/arch/flow.png" alt=""></p>
-<ul>
-<li>
-<p>CNI: Network Plugin in Kubelet that allows to talk to networking to get IPs for Pods and Services.</p>
-</li>
-<li>
-<p>gRPC: API to communicate API Server to ETCD, Controller Manager and Scheduler</p>
-</li>
-<li>
-<p>Kubelet - all K8s nodes have a kubelet that ensures that any pod assigned to it are running and configured in the desired state.</p>
-</li>
-<li>
-<p>CRI(Container Runtime Interface) gRPC API compiled in kubelet which allows to kubelet to talk to container runtimes by using gRPC API.</p>
-</li>
-<li>
-<p>The Container Runtime provider has to adapt it to CRI API to allow kubelet to talk to them by using OCI Standard (runc)
-Initially, Kubernetes was built on top of Docker as the container runtime. Soon after, CoreOS announced the rkt container runtime and wanted Kubernetes to support it, as well. So, Kubernetes ended up supporting Docker and rkt, although this model wasn't very scalable in terms of adding new features or support for new container runtimes.</p>
-</li>
-<li>
-<p>CRI consists of a protocol buffers and gRPC API, and libraries,</p>
-</li>
-</ul>
+<p>To go through the workshop you will need prerequisites installed from the below repo:</p>
+<p><strong>Pre-requisites:</strong> <a href="https://github.com/shahadarsh/docker-k8s-workshop/prerequisites.md">https://github.com/shahadarsh/docker-k8s-workshop/prerequisites.md</a></p>
+<p><strong>Exercises:</strong> <a href="https://github.com/shahadarsh/docker-k8s-workshop">https://github.com/shahadarsh/docker-k8s-workshop</a></p>
 
 
 <footer class=" footline" >
 	
 </footer>
-
 
         
         </div> 
@@ -2384,8 +2353,6 @@ Initially, Kubernetes was built on top of Docker as the container runtime. Soon 
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -2402,6 +2369,7 @@ Initially, Kubernetes was built on top of Docker as the container runtime. Soon 
             
                 
                     
+                    
                 
                 
 
@@ -2417,6 +2385,9 @@ Initially, Kubernetes was built on top of Docker as the container runtime. Soon 
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -2823,7 +2794,6 @@ Initially, Kubernetes was built on top of Docker as the container runtime. Soon 
             
                 
                     
-                    
                 
                 
 
@@ -2838,9 +2808,6 @@ Initially, Kubernetes was built on top of Docker as the container runtime. Soon 
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -3579,7 +3546,6 @@ Initially, Kubernetes was built on top of Docker as the container runtime. Soon 
             
             
                 
-                    
                     
                 
                 
@@ -3593,9 +3559,6 @@ Initially, Kubernetes was built on top of Docker as the container runtime. Soon 
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -3660,7 +3623,6 @@ Initially, Kubernetes was built on top of Docker as the container runtime. Soon 
             
             
                 
-                    
                     
                 
                 
@@ -3680,9 +3642,6 @@ Initially, Kubernetes was built on top of Docker as the container runtime. Soon 
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -3901,10 +3860,10 @@ Initially, Kubernetes was built on top of Docker as the container runtime. Soon 
 	 
 	 
 		
-			<a class="nav nav-prev" href="/docker-k8s-presentation/kubernetes/networking/pod-to-service/" title="Pod-to-Service"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/docker-k8s-presentation/introduction/" title="Introduction"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/docker-k8s-presentation/kubernetes/running/" title="Running" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/docker-k8s-presentation/introduction/whoami/" title="Instructor" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
