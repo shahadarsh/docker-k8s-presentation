@@ -18,7 +18,7 @@
 	"title": "Prerequisites",
 	"tags": [],
 	"description": "",
-	"content": "To go through the workshop you will need prerequisites installed from the below repo:\nPre-requisites: https://github.com/shahadarsh/docker-k8s-workshop/prerequisites.md\nExercises: https://github.com/shahadarsh/docker-k8s-workshop\n"
+	"content": "To go through the workshop you will need prerequisites installed from the below repo:\nPre-requisites: https://github.com/shahadarsh/docker-k8s-workshop/blob/master/prerequisites.md\nExercises: https://github.com/shahadarsh/docker-k8s-workshop\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/",
