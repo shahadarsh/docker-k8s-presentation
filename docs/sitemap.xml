@@ -118,17 +118,22 @@
   </url>
   
   <url>
-    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/internet-to-service-options/</loc>
-    <lastmod>2018-12-09T17:00:54-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/node/</loc>
     <lastmod>2018-12-09T17:00:54-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/pod-to-pod/</loc>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/pod-to-pod-same-node/</loc>
+    <lastmod>2018-12-09T17:00:54-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/data/</loc>
+    <lastmod>2018-12-09T17:00:54-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/pod-to-pod-diff-nodes/</loc>
     <lastmod>2018-12-09T17:00:54-05:00</lastmod>
   </url>
   
@@ -138,7 +143,27 @@
   </url>
   
   <url>
-    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/data/</loc>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/dns/</loc>
+    <lastmod>2018-12-09T17:00:54-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/internet-to-service-egress/</loc>
+    <lastmod>2018-12-09T17:00:54-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/ingress/</loc>
+    <lastmod>2018-12-09T17:00:54-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/ingress/ingress-lb/</loc>
+    <lastmod>2018-12-09T17:00:54-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/ingress/ingress-layer-7/</loc>
     <lastmod>2018-12-09T17:00:54-05:00</lastmod>
   </url>
   
@@ -150,11 +175,6 @@
   <url>
     <loc>https://shahadarsh.github.io/docker-k8s-presentation/containers/network/</loc>
     <lastmod>2018-12-09T17:21:25-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/cleanup/</loc>
-    <lastmod>2018-12-09T17:04:27-05:00</lastmod>
   </url>
   
   <url>
@@ -458,18 +478,8 @@
   </url>
   
   <url>
-    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/ingress/</loc>
-    <lastmod>2018-12-09T17:05:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/ingress/controller/</loc>
-    <lastmod>2018-12-09T17:05:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/ingress/rules/</loc>
-    <lastmod>2018-12-09T17:05:14-05:00</lastmod>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/cleanup/</loc>
+    <lastmod>2018-12-09T17:04:27-05:00</lastmod>
   </url>
   
   <url>

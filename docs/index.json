@@ -148,7 +148,7 @@
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/container-to-container/",
-	"title": "Container-to-Container",
+	"title": "Container to Container",
 	"tags": [],
 	"description": "",
 	"content": "Credit: https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/#kubernetes-networking-model\n"
@@ -161,13 +161,6 @@
 	"content": "  API data store: Etcd (Cluster State)\n  Controller Managers :\n Node Controller Deployment Controller ReplicaSet Controller Replication Controller Endpoints Controller Service Account \u0026amp; Token Controller    Scheduler: Bind pod to Node\n  "
 },
 {
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/internet-to-service-options/",
-	"title": "Internet-to-Service",
-	"tags": [],
-	"description": "",
-	"content": "1. NodePort(Not recommended) It opens a specific port on all the Cluster Nodes, and any traffic that is sent to this port is forwarded to the service.\n2. LoadBalancer A Kubernetes LoadBalancer service points to external load balancers that are NOT in the Kubernetes cluster, but exist elsewhere. For AWS, it uses ELB and GKE it uses Network Load Balancer.\nDownside of this is that each service you expose with a LoadBalancer will get its own IP address, and you have to pay for a LoadBalancer per exposed service, which can get expensive!\n3. Ingress Ingress is NOT a type of service. Instead, it sits in front of multiple services and act as a \u0026ldquo;smart router\u0026rdquo; or entrypoint into your cluster.\n4. Api Gateway Everything that you get from Ingress plus below points:\n Authentication \u0026amp; Authorization for users / 3rd-party systems Enforce SLAs for different users / 3rd-party systems Data transformation / translation API lifecycle management Rate limiting Billing Other customized requirements ….   "
-},
-{
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/node/",
 	"title": "Node",
 	"tags": [],
@@ -175,18 +168,11 @@
 	"content": " Kubelet:   cAdvisor (metrics, logs\u0026hellip;)  Container Runtime:   docker containerd  Pod:   Container (one or more)  Kube-proxy:   Used to reach services and allow communication between Nodes.   "
 },
 {
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/pod-to-pod/",
-	"title": "Pod-to-Pod",
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/pod-to-pod-same-node/",
+	"title": "Pod to Pod (Same Node)",
 	"tags": [],
 	"description": "",
-	"content": "AWS's implementation of CNI plugin: https://github.com/aws/amazon-vpc-cni-k8s\n "
-},
-{
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/pod-to-service/",
-	"title": "Pod-to-Service",
-	"tags": [],
-	"description": "",
-	"content": "AWS's implementation of CNI plugin: https://github.com/aws/amazon-vpc-cni-k8s\n "
+	"content": " "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/data/",
@@ -194,6 +180,55 @@
 	"tags": [],
 	"description": "",
 	"content": "Data Flow   CNI: Network Plugin in Kubelet that allows to talk to networking to get IPs for Pods and Services.\n  gRPC: API to communicate API Server to ETCD, Controller Manager and Scheduler\n  Kubelet - all K8s nodes have a kubelet that ensures that any pod assigned to it are running and configured in the desired state.\n  CRI(Container Runtime Interface) gRPC API compiled in kubelet which allows to kubelet to talk to container runtimes by using gRPC API.\n  The Container Runtime provider has to adapt it to CRI API to allow kubelet to talk to them by using OCI Standard (runc) Initially, Kubernetes was built on top of Docker as the container runtime. Soon after, CoreOS announced the rkt container runtime and wanted Kubernetes to support it, as well. So, Kubernetes ended up supporting Docker and rkt, although this model wasn't very scalable in terms of adding new features or support for new container runtimes.\n  CRI consists of a protocol buffers and gRPC API, and libraries,\n  "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/pod-to-pod-diff-nodes/",
+	"title": "Pod to Pod (Different Nodes)",
+	"tags": [],
+	"description": "",
+	"content": "AWS's implementation of CNI plugin: https://github.com/aws/amazon-vpc-cni-k8s\n "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/pod-to-service/",
+	"title": "Pod to Service",
+	"tags": [],
+	"description": "",
+	"content": " "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/dns/",
+	"title": "Kubernetes DNS",
+	"tags": [],
+	"description": "",
+	"content": "Kubernetes DNS Kubernetes DNS schedules a DNS Pod and Service on the cluster, and configures the kubelets to tell individual containers to use the DNS Service’s IP to resolve DNS names.\nCheck Services exercise for example\n"
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/internet-to-service-egress/",
+	"title": "Internet to Service (Egress)",
+	"tags": [],
+	"description": "",
+	"content": " "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/ingress/",
+	"title": "Internet to Service (Ingress)",
+	"tags": [],
+	"description": "",
+	"content": "What Ingress is a K8 object that allows external access to resources inside the cluster\nWhy Services, Pods and other objects are only accessible inside the cluster\n1. NodePort(Not recommended) It opens a specific port on all the Cluster Nodes, and any traffic that is sent to this port is forwarded to the service.\n2. LoadBalancer A Kubernetes LoadBalancer service points to external load balancers that are NOT in the Kubernetes cluster, but exist elsewhere. For AWS, it uses ELB and GKE it uses Network Load Balancer.\nDownside of this is that each service you expose with a LoadBalancer will get its own IP address, and you have to pay for a LoadBalancer per exposed service, which can get expensive!\n3. Ingress Ingress is NOT a type of service. Instead, it sits in front of multiple services and act as a \u0026ldquo;smart router\u0026rdquo; or entrypoint into your cluster.\n4. Api Gateway Everything that you get from Ingress plus below points:\n Authentication \u0026amp; Authorization for users / 3rd-party systems Enforce SLAs for different users / 3rd-party systems Data transformation / translation API lifecycle management Rate limiting Billing Other customized requirements ….   "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/ingress/ingress-lb/",
+	"title": "Load Balancer",
+	"tags": [],
+	"description": "",
+	"content": "Load Balancer (Layer 4 Ingress)  "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/ingress/ingress-layer-7/",
+	"title": "Ingress Controller",
+	"tags": [],
+	"description": "",
+	"content": "Ingress Controller (Layer 7 Ingress)  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/cni/",
@@ -208,13 +243,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Container Networking  Docker uses iptables to provide network isolation Explicitly publish a port for connectivity to it Containers do not have a public IPv4 address They are allocated a private address Services running on a container must be exposed port by port Container ports have to be mapped to the host port to avoid conflicts  More information here\n"
-},
-{
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/cleanup/",
-	"title": "Connecting to Cluster",
-	"tags": [],
-	"description": "",
-	"content": "Go to dir: 100-cleanup\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/connect/",
@@ -536,7 +564,7 @@
 	"title": "Networking",
 	"tags": [],
 	"description": "",
-	"content": "Networking Four distinct Network problems to address:\n  Highly-coupled container-to-container communications\n  Pod-to-Pod communications\n  Pod-to-Service communications\n  External-to-Service communications\n  1. NodePort(Not recommended) It opens a specific port on all the Cluster Nodes, and any traffic that is sent to this port is forwarded to the service.\n2. LoadBalancer A Kubernetes LoadBalancer service points to external load balancers that are NOT in the Kubernetes cluster, but exist elsewhere. For AWS, it uses ELB and GKE it uses Network Load Balancer.\nDownside of this is that each service you expose with a LoadBalancer will get its own IP address, and you have to pay for a LoadBalancer per exposed service, which can get expensive!\n3. Ingress Ingress is NOT a type of service. Instead, it sits in front of multiple services and act as a \u0026ldquo;smart router\u0026rdquo; or entrypoint into your cluster.\n4. Api Gateway Everything that you get from Ingress plus below points:\n Authentication \u0026amp; Authorization for users / 3rd-party systems Enforce SLAs for different users / 3rd-party systems Data transformation / translation API lifecycle management Rate limiting Billing Other customized requirements ….  "
+	"content": "Networking Kubernetes dictates the following requirements on any networking implementation:\n All Pods can communicate with all other Pods without using network address translation (NAT). All Nodes can communicate with all Pods without NAT. The IP that a Pod sees itself as is the same IP that others see it as.  Four distinct Network problems to address:   Highly-coupled container-to-container communications\n  Pod-to-Pod communications\n  Pod-to-Service communications\n  External-to-Service communications\n  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/docker/benefits/",
@@ -637,25 +665,11 @@
 	"content": "K8 Security  RBAC NetworkPolicy TLS Image Scanning Aquasec/Twistlock Integrating with HashiCorp Vault other public cloud secret stores Investigate using a container based OS (CoreOS, Atomic Linux) Harden and tweak Make sure to pass https://github.com/dev-sec/linux-baseline  Vendors to add  Aquasec https://www.aquasec.com/ Twistlock https://www.twistlock.com/ Sysdig Falco https://www.sysdig.org/falco/  "
 },
 {
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/ingress/",
-	"title": "ingress",
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/cleanup/",
+	"title": "Cleanup",
 	"tags": [],
 	"description": "",
-	"content": "What Ingress is a K8 object that allows external access to resources inside the cluster\nWhy Services, Pods and other objects are only accessible inside the cluster\n "
-},
-{
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/ingress/controller/",
-	"title": "Ingress Controllers",
-	"tags": [],
-	"description": "",
-	"content": "Ingress controllers In order for the ingress resource to work, the cluster must have an ingress controller running. This is unlike other types of controllers, which run as part of the kube-controller-manager binary, and are typically started automatically with a cluster. Choose the ingress controller implementation that best fits your cluster.\nIngress Controller\napiVersion: extensions/v1beta1 kind: Ingress metadata: name: test-ingress spec: backend: serviceName: testsvc servicePort: 80 Kubernetes supported Ingress Controllers:\n GCE nginx  Others that can be deployed:\n HAProxy Kong Contour  Full list is here\n"
-},
-{
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/ingress/rules/",
-	"title": "Ingress Rules",
-	"tags": [],
-	"description": "",
-	"content": "Each http rule contains the following information:\n Host list of paths Backend service  Ingress Rule\napiVersion: extensions/v1beta1 kind: Ingress metadata: name: simple-fanout-example annotations: nginx.ingress.kubernetes.io/rewrite-target: / spec: rules: - host: foo.bar.com http: paths: - path: /foo backend: serviceName: service1 servicePort: 4200 - path: /bar backend: serviceName: service2 servicePort: 8080 "
+	"content": "Go to dir: 100-cleanup\n"
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/categories/",

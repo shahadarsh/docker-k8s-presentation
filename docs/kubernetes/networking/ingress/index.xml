@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet to Service (Ingress) on Introduction to Kubernetes</title>
+    <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/ingress/</link>
+    <description>Recent content in Internet to Service (Ingress) on Introduction to Kubernetes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Dec 2018 17:00:54 -0500</lastBuildDate>
+    
+	<atom:link href="https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/ingress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Load Balancer</title>
+      <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/ingress/ingress-lb/</link>
+      <pubDate>Sun, 09 Dec 2018 17:00:54 -0500</pubDate>
+      
+      <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/ingress/ingress-lb/</guid>
+      <description>Load Balancer (Layer 4 Ingress)  </description>
+    </item>
+    
+    <item>
+      <title>Ingress Controller</title>
+      <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/ingress/ingress-layer-7/</link>
+      <pubDate>Sun, 09 Dec 2018 17:00:54 -0500</pubDate>
+      
+      <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/ingress/ingress-layer-7/</guid>
+      <description>Ingress Controller (Layer 7 Ingress)  </description>
+    </item>
+    
+  </channel>
+</rss>
