@@ -161,11 +161,11 @@
 	"content": "  API data store: Etcd (Cluster State)\n  Controller Managers :\n Node Controller Deployment Controller ReplicaSet Controller Replication Controller Endpoints Controller Service Account \u0026amp; Token Controller    Scheduler: Bind pod to Node\n  "
 },
 {
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/internet-to-service/",
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/internet-to-service-options/",
 	"title": "Internet-to-Service",
 	"tags": [],
 	"description": "",
-	"content": "AWS's implementation of CNI plugin: https://github.com/aws/amazon-vpc-cni-k8s\n "
+	"content": "1. NodePort(Not recommended) It opens a specific port on all the Cluster Nodes, and any traffic that is sent to this port is forwarded to the service.\n2. LoadBalancer A Kubernetes LoadBalancer service points to external load balancers that are NOT in the Kubernetes cluster, but exist elsewhere. For AWS, it uses ELB and GKE it uses Network Load Balancer.\nDownside of this is that each service you expose with a LoadBalancer will get its own IP address, and you have to pay for a LoadBalancer per exposed service, which can get expensive!\n3. Ingress Ingress is NOT a type of service. Instead, it sits in front of multiple services and act as a \u0026ldquo;smart router\u0026rdquo; or entrypoint into your cluster.\n4. Api Gateway Everything that you get from Ingress plus below points:\n Authentication \u0026amp; Authorization for users / 3rd-party systems Enforce SLAs for different users / 3rd-party systems Data transformation / translation API lifecycle management Rate limiting Billing Other customized requirements ….   "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/node/",
@@ -536,7 +536,7 @@
 	"title": "Networking",
 	"tags": [],
 	"description": "",
-	"content": "Networking Highly-coupled container-to-container communications Pod-to-Pod communications Pod-to-Service communications External-to-Service communications 1. NodePort(Not recommended) It opens a specific port on all the Cluster Nodes, and any traffic that is sent to this port is forwarded to the service.\n2. LoadBalancer A Kubernetes LoadBalancer service points to external load balancers that are NOT in the Kubernetes cluster, but exist elsewhere. For AWS, it uses ELB and GKE it uses Network Load Balancer.\nDownside of this is that each service you expose with a LoadBalancer will get its own IP address, and you have to pay for a LoadBalancer per exposed service, which can get expensive!\n3. Ingress Ingress is NOT a type of service. Instead, it sits in front of multiple services and act as a \u0026ldquo;smart router\u0026rdquo; or entrypoint into your cluster.\n4. Api Gateway Everything that you get from Ingress plus below points:\n Authentication \u0026amp; Authorization for users / 3rd-party systems Enforce SLAs for different users / 3rd-party systems Data transformation / translation API lifecycle management Rate limiting Billing Other customized requirements ….  "
+	"content": "Networking Four distinct Network problems to address:\n  Highly-coupled container-to-container communications\n  Pod-to-Pod communications\n  Pod-to-Service communications\n  External-to-Service communications\n  1. NodePort(Not recommended) It opens a specific port on all the Cluster Nodes, and any traffic that is sent to this port is forwarded to the service.\n2. LoadBalancer A Kubernetes LoadBalancer service points to external load balancers that are NOT in the Kubernetes cluster, but exist elsewhere. For AWS, it uses ELB and GKE it uses Network Load Balancer.\nDownside of this is that each service you expose with a LoadBalancer will get its own IP address, and you have to pay for a LoadBalancer per exposed service, which can get expensive!\n3. Ingress Ingress is NOT a type of service. Instead, it sits in front of multiple services and act as a \u0026ldquo;smart router\u0026rdquo; or entrypoint into your cluster.\n4. Api Gateway Everything that you get from Ingress plus below points:\n Authentication \u0026amp; Authorization for users / 3rd-party systems Enforce SLAs for different users / 3rd-party systems Data transformation / translation API lifecycle management Rate limiting Billing Other customized requirements ….  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/docker/benefits/",

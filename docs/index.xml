@@ -100,12 +100,13 @@
     
     <item>
       <title>Internet-to-Service</title>
-      <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/internet-to-service/</link>
+      <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/internet-to-service-options/</link>
       <pubDate>Sun, 09 Dec 2018 17:00:54 -0500</pubDate>
       
-      <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/internet-to-service/</guid>
-      <description>AWS&#39;s implementation of CNI plugin: https://github.com/aws/amazon-vpc-cni-k8s
- </description>
+      <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/internet-to-service-options/</guid>
+      <description>1. NodePort(Not recommended) It opens a specific port on all the Cluster Nodes, and any traffic that is sent to this port is forwarded to the service.
+2. LoadBalancer A Kubernetes LoadBalancer service points to external load balancers that are NOT in the Kubernetes cluster, but exist elsewhere. For AWS, it uses ELB and GKE it uses Network Load Balancer.
+Downside of this is that each service you expose with a LoadBalancer will get its own IP address, and you have to pay for a LoadBalancer per exposed service, which can get expensive!</description>
     </item>
     
     <item>
