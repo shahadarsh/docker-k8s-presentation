@@ -7,7 +7,13 @@ weight = 500
 
 ## [Networking](https://kubernetes.io/docs/concepts/cluster-administration/networking/)
 
-Four distinct Network problems to address: 
+Kubernetes dictates the following requirements on any networking implementation: 
+
+* All Pods can communicate with all other Pods without using network address translation (NAT).
+* All Nodes can communicate with all Pods without NAT.
+* The IP that a Pod sees itself as is the same IP that others see it as.
+
+##### Four distinct Network problems to address: 
 
 1. Highly-coupled container-to-container communications
 
