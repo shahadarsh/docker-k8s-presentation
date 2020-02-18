@@ -42,7 +42,7 @@
     </item>
     
     <item>
-      <title>Logging - Node</title>
+      <title>Logging at node level</title>
       <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/logging-node/</link>
       <pubDate>Sun, 09 Dec 2018 17:13:55 -0500</pubDate>
       
@@ -56,7 +56,25 @@
       <pubDate>Sun, 09 Dec 2018 17:13:55 -0500</pubDate>
       
       <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/logging-cluster/</guid>
-      <description></description>
+      <description>Using a node logging agent </description>
+    </item>
+    
+    <item>
+      <title>Logging - Cluster</title>
+      <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/logging-cluster-streaming-sidecar/</link>
+      <pubDate>Sun, 09 Dec 2018 17:13:55 -0500</pubDate>
+      
+      <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/logging-cluster-streaming-sidecar/</guid>
+      <description>Using a streaming sidecar container with the logging agent </description>
+    </item>
+    
+    <item>
+      <title>Logging - Cluster</title>
+      <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/logging-cluster-sidecar-agent/</link>
+      <pubDate>Sun, 09 Dec 2018 17:13:55 -0500</pubDate>
+      
+      <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/logging-cluster-sidecar-agent/</guid>
+      <description>Using a sidecar container with the logging agent </description>
     </item>
     
     <item>

@@ -659,7 +659,7 @@
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/logging-node/",
-	"title": "Logging - Node",
+	"title": "Logging at node level",
 	"tags": [],
 	"description": "",
 	"content": ""
@@ -669,7 +669,21 @@
 	"title": "Logging - Cluster",
 	"tags": [],
 	"description": "",
-	"content": ""
+	"content": "Using a node logging agent "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/logging-cluster-streaming-sidecar/",
+	"title": "Logging - Cluster",
+	"tags": [],
+	"description": "",
+	"content": "Using a streaming sidecar container with the logging agent "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/logging-cluster-sidecar-agent/",
+	"title": "Logging - Cluster",
+	"tags": [],
+	"description": "",
+	"content": "Using a sidecar container with the logging agent "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/security/",

@@ -483,6 +483,16 @@
   </url>
   
   <url>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/logging-cluster-streaming-sidecar/</loc>
+    <lastmod>2018-12-09T17:13:55-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/logging-cluster-sidecar-agent/</loc>
+    <lastmod>2018-12-09T17:13:55-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/security/</loc>
     <lastmod>2018-12-09T17:13:49-05:00</lastmod>
   </url>
