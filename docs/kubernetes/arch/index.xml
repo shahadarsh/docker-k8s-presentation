@@ -44,5 +44,23 @@
   CRI(Container Runtime Interface) gRPC API compiled in kubelet which allows to kubelet to talk to container runtimes by using gRPC API.</description>
     </item>
     
+    <item>
+      <title>High Availability Cluster</title>
+      <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/ha-stacked-etcd/</link>
+      <pubDate>Sun, 09 Dec 2018 17:00:54 -0500</pubDate>
+      
+      <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/ha-stacked-etcd/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>High Availability Cluster</title>
+      <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/ha-external-etcd/</link>
+      <pubDate>Sun, 09 Dec 2018 17:00:54 -0500</pubDate>
+      
+      <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/ha-external-etcd/</guid>
+      <description> </description>
+    </item>
+    
   </channel>
 </rss>

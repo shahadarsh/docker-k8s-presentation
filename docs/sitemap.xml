@@ -138,7 +138,17 @@
   </url>
   
   <url>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/ha-stacked-etcd/</loc>
+    <lastmod>2018-12-09T17:00:54-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/pod-to-service/</loc>
+    <lastmod>2018-12-09T17:00:54-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/ha-external-etcd/</loc>
     <lastmod>2018-12-09T17:00:54-05:00</lastmod>
   </url>
   
@@ -169,6 +179,16 @@
   
   <url>
     <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/cni/</loc>
+    <lastmod>2018-12-09T17:00:54-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/running/</loc>
+    <lastmod>2018-12-09T17:11:44-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/running/eks/</loc>
     <lastmod>2018-12-09T17:00:54-05:00</lastmod>
   </url>
   
@@ -430,11 +450,6 @@
   <url>
     <loc>https://shahadarsh.github.io/docker-k8s-presentation/containers/docker/exercise/</loc>
     <lastmod>2018-12-09T17:21:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/running/</loc>
-    <lastmod>2018-12-09T17:11:44-05:00</lastmod>
   </url>
   
   <url>

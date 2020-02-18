@@ -189,8 +189,22 @@
 	"content": "AWS's implementation of CNI plugin: https://github.com/aws/amazon-vpc-cni-k8s\n "
 },
 {
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/ha-stacked-etcd/",
+	"title": "High Availability Cluster",
+	"tags": [],
+	"description": "",
+	"content": " "
+},
+{
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/pod-to-service/",
 	"title": "Pod to Service",
+	"tags": [],
+	"description": "",
+	"content": " "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/arch/ha-external-etcd/",
+	"title": "High Availability Cluster",
 	"tags": [],
 	"description": "",
 	"content": " "
@@ -236,6 +250,20 @@
 	"tags": [],
 	"description": "",
 	"content": "Data Flow   CNI: Network Plugin in Kubelet that allows to talk to networking to get IPs for Pods and Services.\n  gRPC: API to communicate API Server to ETCD, Controller Manager and Scheduler\n  Kubelet - all K8s nodes have a kubelet that ensures that any pod assigned to it are running and configured in the desired state.\n  CRI(Container Runtime Interface) gRPC API compiled in kubelet which allows to kubelet to talk to container runtimes by using gRPC API.\n  The Container Runtime provider has to adapt it to CRI API to allow kubelet to talk to them by using OCI Standard (runc) Initially, Kubernetes was built on top of Docker as the container runtime. Soon after, CoreOS announced the rkt container runtime and wanted Kubernetes to support it, as well. So, Kubernetes ended up supporting Docker and rkt, although this model wasn't very scalable in terms of adding new features or support for new container runtimes.\n  CRI consists of a protocol buffers and gRPC API, and libraries,\n  "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/running/",
+	"title": "Running",
+	"tags": [],
+	"description": "",
+	"content": "Options for Running Kubernetes  Managed  Google Kubernetes Engine (GKE) Amazon Elastic Kubernetes Service (EKS) Azure Kubernetes Service (AKS)   Self Managed  kubeadm kops KRIB Kubespray   Kubernetes for the Edge/IoT devices  k3s KubeEdge   Local Environment  Minikube Docker for desktop Microk8s    "
+},
+{
+	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/running/eks/",
+	"title": "Amazon EKS",
+	"tags": [],
+	"description": "",
+	"content": "Amazon Elastic Kubernetes Service "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/containers/network/",
@@ -600,13 +628,6 @@
 	"tags": [],
 	"description": "",
 	"content": "Docker Exercise Git clone Microservices Exercises\n"
-},
-{
-	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/running/",
-	"title": "Running",
-	"tags": [],
-	"description": "",
-	"content": "Options for Running Kubernetes  GKP EKS AKS On prem  "
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/extras/",

@@ -11,5 +11,14 @@
 	<atom:link href="https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/running/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Amazon EKS</title>
+      <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/running/eks/</link>
+      <pubDate>Sun, 09 Dec 2018 17:00:54 -0500</pubDate>
+      
+      <guid>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/running/eks/</guid>
+      <description>Amazon Elastic Kubernetes Service </description>
+    </item>
+    
   </channel>
 </rss>
