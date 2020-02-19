@@ -218,7 +218,7 @@
 },
 {
 	"uri": "https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/internet-to-service-egress/",
-	"title": "Internet to Service (Egress)",
+	"title": "Pod to Internet (Egress)",
 	"tags": [],
 	"description": "",
 	"content": " "

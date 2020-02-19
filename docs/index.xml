@@ -176,7 +176,7 @@ Check Services exercise for example</description>
     </item>
     
     <item>
-      <title>Internet to Service (Egress)</title>
+      <title>Pod to Internet (Egress)</title>
       <link>https://shahadarsh.github.io/docker-k8s-presentation/kubernetes/networking/internet-to-service-egress/</link>
       <pubDate>Sun, 09 Dec 2018 17:00:54 -0500</pubDate>
       
