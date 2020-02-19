@@ -5,5 +5,5 @@ weight = 108
 +++
 
 
-![](/docker-k8s-presentation/images/incubating.png)
+![](/docker-k8s-presentation/images/incubating-1.png)
  
